@@ -138,4 +138,3 @@ toq % 2===1
 juft %2===0 
 
 
-// console.log(one(200));
