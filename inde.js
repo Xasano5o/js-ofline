@@ -132,9 +132,11 @@
 // console.log(parseInt( Math.random()*(start-end))+start);
 
 
-var juft = 12
-var toq = 5 
-toq % 2===1 
-juft %2===0 
+// var juft = 12
+// var toq = 5 
+// toq % 2===1 
+// juft %2===0 
+
+
 
 
