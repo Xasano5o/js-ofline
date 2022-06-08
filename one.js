@@ -219,29 +219,58 @@
 //  st2=st3
 // console.log(st1);
 
-var a= 'web'
-var b='brain'
-var c =''
-var c=a
-var a=b
-var b=c
-console.log(a);
+// var a= 'web'
+// var b='brain'
+// var c =''
+// var c=a
+// var a=b
+// var b=c
+// console.log(a);
+// console.log(b);
+
 
 // function kabis(year) {
 // return year % 4==0 ? 'kabis yili' :'bu kabis yili emas'
 // }
-// console.log(kabis(2020));
+// console.log(kabis(2021));
 
 // var one = "Fozil";
 // var res = one.toLowerCase().includes("l");
 // console.log(res);
 
-// function run(yur) {
-// return yur % 2==0 ?'bob' :yur %2==1 ?'alice':'xato'
-// }
-// console.log(run(0));
+
 
 // function foiz(num) {
 // return num %6==0 ?'3 ga bo`linadi':num % 10== 0 ?'5 ga bo`linadi':num % 30==1 ? '10 ga bo`linadi':'faild'
 // }
 // console.log(foiz(6));
+
+
+
+
+// function run(yur) {
+// return yur % 2==1 ?'bob yutdi' :yur %2==0 ?'alice yutqazdi':'xato'
+// }
+// console.log(run(1));
+
+
+
+//  let= hello=(one)=> { 
+//      return 'hello world'
+//     }
+//     console.log(hello());
+
+//     hello =(one)=> 'hello world'
+// console.log(hello());
+
+
+// -------------------------------------------
+// declaration fuction xoisted bo`ladi va xarqancha marotaba chaqira olamiz va qancha marotaba chaqirgan bulsag shuncha chiqadi terminaldan javobi 1 ta fucsiyana k`op martoba chaqira olar ekanmiz declaration fucsiyada
+// function one(name, age, status='hello guys') {
+// console.log(`name ${ name}`);
+// console.log(`age ${ age}`);
+// console.log( `status ${status}`);
+// console.log('---------------');
+
+// } 
+// one('xasan',20,);
