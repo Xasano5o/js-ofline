@@ -262,6 +262,7 @@
 
 //     hello =(one)=> 'hello world'
 // console.log(hello());
+// arrow fuction retun uzi qaytaradi scobka qo`yilmasa va xoisted bo`lmaydi `ES6  kirib kelgan 
 
 
 // -------------------------------------------
@@ -274,3 +275,67 @@
 
 // } 
 // one('xasan',20,);
+
+// o4
+
+
+
+
+// function day(soat) {
+// if (soat=='10:15PM') {
+//     console.log('22:15');
+// }    
+// else if( soat=='08:30AM') {
+//     console.log('08:30');
+// }
+// else if(soat=='12:00PM'){
+//     console.log('00:00');
+// }
+// else{'HECH BIR SOATGA TUGRI KELMADI '}
+// }
+// day('12:00PM');
+
+
+// function number(one,too='guys') {
+// console.log(    `hello,${one}`);
+// console.log(    `hello,${too}`);
+
+// }console.log(number());
+
+
+
+// function cat(name) {
+// return name
+// }
+// console.log(cat('hey'));
+
+// exparation fuction
+// let one  = function (one){
+// return 'guys'
+// }
+
+//     hello =(one)=> {
+//       return   'hello world'}
+// console.log(one());
+// console.log(hello());
+
+// 1 declaration xoisted bo`ladi 
+// 2 exparation xoisted bo`lmaydi yangi o`zgaruvchiga tenglab oliub fuction ochiladi 
+// 3 arrrow yangi `ozgaruvchiga tenglab ketiladi parametr 1 ta bulsa va scobka qoyilmasa uzi return  qaytaradi va xoisted bo`lmaydi
+
+
+
+// console.log(gradus());
+
+// function gradus(num) {
+//     if (num>=8) {
+//  console.log('isiiqroq');   
+// }
+//    else if (num>=2) {
+//  console.log('isiiq');   
+// }
+// else{
+//     console.log('xech biriga tugri kelmadi');
+// }
+// }
+// console.log(gradus(51));
