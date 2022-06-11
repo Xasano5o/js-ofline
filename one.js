@@ -339,3 +339,13 @@
 // }
 // }
 // console.log(gradus(51));
+let obj=[
+    'xasan',
+    'xasan',
+    'xasan',
+    'xasan',
+    'xasan',
+]
+obj.map((index)=>{
+console.log(obj.);
+})
