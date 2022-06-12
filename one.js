@@ -339,13 +339,59 @@
 // }
 // }
 // console.log(gradus(51));
-let obj=[
-    'xasan',
-    'xasan',
-    'xasan',
-    'xasan',
-    'xasan',
-]
-obj.map((index)=>{
-console.log(obj.);
-})
+// let obj=[
+// 01234567,66666,'hello '
+// ]
+// one=obj
+// console.log(one.splice(1,2,'hhuuuu'));
+
+// const months = ['Jan', 'March', 'April', 'June'];
+// months.splice(1, 0,  'Feb',444444,78437878783,true);
+// console.log(months);
+// const animals = ['elephant','elephant','elephant','elephant','elephant' ,'xasan','xaasd'];
+
+// animals.map((valus,index)=>!valus.includes('x')? console.log(valus):console.log("x lik element"))
+// // oy.slice(1,2)
+
+
+
+// var one =['hello','guys','blabla','world']
+
+// b=one.slice(1,-2)
+// console.log(b);
+// console.log(one);
+
+
+// let one ='zuhr'
+// b=one.split('')
+// b.map((v,i)=>v)
+
+
+// console.log(b);
+
+// let str ='132346'
+// b= str.split('')
+// minmax.max= [...b]
+// min = [...b]
+// //    minmax.max = b[0];
+// //     minmax.min = b[0]; 
+
+// console.log(minmax);
+
+// let array1 = "1 2 3 4 9 0";
+// b = array1.split(' ')
+ 
+
+// console.log(Math.max(...array1),Math.min(...array1))
+
+// let arr=[1,2,3,4,5]
+// let one=0
+// a=arr.map((v,)=>one+=v)
+// console.log(one);
+
+// let str ='Assallomu allekum jumma muborak'.split(' ').map((value) => {
+//     return value[0].toUpperCase() + value.slice(1)
+// })
+// console.log(str.join(' '));
+
+
