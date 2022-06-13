@@ -395,3 +395,42 @@
 // console.log(str.join(' '));
 
 
+// let str= '12345'
+// a= str.split('')
+// console.log(a);
+
+
+// function getPow (numbers){
+//     const result =`${numbers}`.split("").map((value)=>{
+//         return Math.pow(+value, 2)
+//     })
+//     return +result.join("")
+// }
+
+// console.log(getPow(9119))
+
+
+
+
+
+
+
+
+// let one =['hello','guys',13345]
+// let on2 =['world','hey',45]
+// result=one.forEach((i,v,a)=>{
+//     return i 
+// } 
+// )
+
+// console.log(result);
+
+// console.log( one.concat(on2));
+
+
+
+
+
+// const one=13244
+
+// console.log(one);
