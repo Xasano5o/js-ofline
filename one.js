@@ -962,3 +962,129 @@
 //         return a.match(/\d/) - b.match(/\d/);
 //     }).join(' ');
 // }
+
+// 1 string 2,number 3,null,4,undefain,5object,6BigInt
+// prmativ string number null undefain bigInt 
+// non prmativ object regEx
+
+// let a = 'string';
+// console.log(a);
+// console.log(a);
+// const one=['oy','yil','kun','soat'].slice(1,2,'sekond')
+// console.log(one);
+
+// const months = ['Jan', 'March', 'April', 'June'];
+// months.splice(0,0,'hey' ,'hehjhr')
+    
+// console.log(months);
+
+
+// console.log(res);
+
+// one=[1343]
+// res=one.filter((v)=>{
+//     return v!=="h" && v
+// })
+// console.log(res);
+// let one =[1433,2,3,'h',6]
+// res= one.map((v)=>v
+
+// console.log(res.push('1'));
+
+//  let one =['sekond' , 'minut','soat', 'kun','yil']
+// res=one.push('oy')
+// one.push('oy1' ,'hell')
+// one.pop()
+// one.unshift('oy1','guys')
+// one.shift()
+
+//  console.log(one);
+
+//  res= one.splice(2,4 ,'okey')
+// console.log(res);
+
+
+// var one =[0,1,2,3,4,5,6]
+// res = one.splice(0,2 ,'hey')
+// console.log(one);
+
+
+// one ='Hello Wold 12343'
+// res=one.match(/[0-9]/g).join('')
+// console.log(+res);
+
+// var a =['webbrain','academy','IT','Center'].join('').split('').map((v)=> v === 'e' ? '1' : false).filter(Boolean).length
+
+// console.log(a);
+
+
+// var one =[12]
+// res=one.map((v,i)=>{
+//     console.log(res[i]);
+// })
+
+// var one =['webbrain','academy','IT','Center'].join('')
+// res=one.match(/[w]/g)
+// console.log(res.length);
+
+
+// var ar =[1,2,3,4,5]
+// console.log(ar.slice(1,2));
+
+// res=ar.map((v,i,a)=>{
+//     console.log(i);
+// })
+
+
+
+// var a =['webbrain','academy','IT','Center'].join('').split('').filter((v)=> v === 'e').length
+// console.log(a);
+
+// var one =[1,2,3,4,5]
+// one.map((v,i,a)=>{
+//     console.log(one[i] + one[one.length-1]) 
+// }) 
+
+
+
+// var one ='12.00'
+// res=one.split('').map((v)=>v=='.' ? v : false)
+// console.log(res);
+
+
+// 1-masala
+// 1234 4321
+
+// let result = []
+// let one =1234+''
+// let a = one.split('').map((v)=> result.unshift(v))
+// console.log(result.join(''));
+
+// let str22 ='12.1000'
+// let res = parseFloat(str22)
+// console.log(res)
+
+// 2-masala
+// qoldig`lik
+let str = "12.0000000"
+if (str.includes(".")) {
+    let index = str.indexOf(".")
+    let result = str.slice(index+1, str.length)
+    let res1 = str.slice(0, index+1)
+    let javob = result.replace(/0+$/, '')
+    let javob2 = res1 + javob
+    if (javob2[javob2.length-1]===".") {
+        console.log(res1.slice(0,res1.length-1));
+    }else{
+        console.log(javob2);
+    }
+}
+// 3 masala
+// let sm = [1, 1, 1, 2];
+// let ress = true;
+// sm.map((item, index) => {
+//   if (sm.length !== index + 1 && item !== sm[index + 1]) {
+//     ress = false;
+//   }
+// });
+// console.log(ress);
