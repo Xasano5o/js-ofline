@@ -148,18 +148,32 @@
 // }
 // console.log(test(56));
 
+
+
+
+
+
 // var arr = [
-//   {id: 1, name: "Fozil"},
+//   {id: 1, name: "umar"},
 //   {id: 1, name: "nodir"},
 //   {id: 1, name: "xasan"},
-//   {id: 1, name: "roziya"},
+//   {id: 1, name: "abdulloh"},
+//   {id: 1, name: "bobur"},
+//   {id: 1, name: "sardor"},
+
 // ];
 
 // function getsearch(text) {
-//     return arr.filter((value)=>value.name.toLowerCase().includes(text.toLowerCase()))
+//     a= arr.filter((value)=>value.name.toLowerCase().includes(text.toLowerCase()))
+//     return a
 // }
 
-// console.log(getsearch("O"));
+// console.log(getsearch("o"));
+
+
+
+
+
 
 // class One {
 //   constructor(prop){
@@ -1066,21 +1080,21 @@
 
 // 2-masala
 // qoldig`lik
-let str = "12.0000000"
-if (str.includes(".")) {
-    let index = str.indexOf(".")
-    let result = str.slice(index+1, str.length)
-    let res1 = str.slice(0, index+1)
-    let javob = result.replace(/0+$/, '')
-    let javob2 = res1 + javob
-    if (javob2[javob2.length-1]===".") {
-        console.log(res1.slice(0,res1.length-1));
-    }else{
-        console.log(javob2);
-    }
-}
+// let str = "12.0000000"
+// if (str.includes(".")) {
+//     let index = str.indexOf(".")
+//     let result = str.slice(index+1, str.length)
+//     let res1 = str.slice(0, index+1)
+//     let javob = result.replace(/0+$/, '')
+//     let javob2 = res1 + javob
+//     if (javob2[javob2.length-1]===".") {
+//         console.log(res1.slice(0,res1.length-1));
+//     }else{
+//         console.log(javob2);
+//     }
+// }
 // 3 masala
-// let sm = [1, 1, 1, 2];
+// let sm = [1, 1, 1, 1];
 // let ress = true;
 // sm.map((item, index) => {
 //   if (sm.length !== index + 1 && item !== sm[index + 1]) {
@@ -1088,3 +1102,60 @@ if (str.includes(".")) {
 //   }
 // });
 // console.log(ress);
+
+// 4 masla 
+// let one = ['SheWalksToTheBeach'].join('').split('').map( v => v == v.toLocaleUpperCase() ? ' ' + v : v  ).join('').trim()
+// console.log(one)
+
+// let str22 ='12.100'
+// let res = parseFloat(str22)
+// console.log(res)
+// let count = 0;
+// var one =[1,2,1,7,8,9,4,5,6,7,1,2,3,4,5,6,7,8,9,1,2,4]
+// one.map((item,index,arr)=>{
+//   if(item + 1 === arr[index +1] && item + 2 === arr[index+2]) count ++;
+// })
+// console.log(count);
+
+// function web(one) {
+//   let sybool ='!@#$%^&*()_+-='
+//   a=one.filter((v,i,a)=> sybool.includes(v)).length
+//   b=one.filter((v,i,a)=> typeof v==='number').length 
+//   c=one.filter((v,i,a)=> typeof v==='string' && !sybool.includes(v)).length
+// return [a,b,c]
+// } 
+// console.log(web(['web',1,2,3,4,5,'sfjv','%', '$','34']));
+
+
+// var one ='87431122784'.split('')
+// first = ""
+// one.map((item, index)=>{
+//    if(item === one[index+1]){
+//     return first += item
+//    }
+// })
+// console.log(first[0]);
+
+
+var one =[1,2,3,4,9,3,6,5,0,1,3,4]
+var too=[0,1,2,3,4,5,6,7,8,9]
+var sree=[]
+res=one.map((value,index,arr)=>value)
+
+
+console.log(res);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
