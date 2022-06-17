@@ -1137,25 +1137,39 @@
 // console.log(first[0]);
 
 
-var one =[1,2,3,4,9,3,6,5,0,1,3,4]
-var too=[0,1,2,3,4,5,6,7,8,9]
-var sree=[]
-res=one.map((value,index,arr)=>value)
+// var one =[1,2,3,4,9,3,6,5,0,1,3,4]
+// var too=[0,1,2,3,4,5,6,7,8,9]
+// var sree=[]
+// res=one.map((item,index,arr)=>item + 1 === arr[index +1] && item + 2 === arr[index+2])
 
 
-console.log(res);
-
-
-
+// console.log(res);
 
 
 
 
 
+// const array = [15, 16, 17, 18, 19];
+
+// function reducer(previous, current, index, array) {
+//   const returns = previous + current;
+//   console.log(`previous: ${previous}, current: ${current}, index: ${index}, returns: ${returns}`);
+//   return returns;
+// }
+
+// array.reduce(reducer);
 
 
+let arr = [4, 32, 2, 5, 8,3,4,2,34,0];
 
+for (let i = 0; i < arr.length; i++) {
+  for (let j = i + 1; j < arr.length; j++) {
+    if (arr[i] > arr[j]) {
+      temp = arr[i];
+      arr[i] = arr[j];
+      arr[j] = temp;
+    }
+  }
+}
 
-
-
-
+console.log(arr);
