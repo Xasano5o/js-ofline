@@ -1127,14 +1127,7 @@
 // console.log(web(['web',1,2,3,4,5,'sfjv','%', '$','34']));
 
 
-// var one ='87431122784'.split('')
-// first = ""
-// one.map((item, index)=>{
-//    if(item === one[index+1]){
-//     return first += item
-//    }
-// })
-// console.log(first[0]);
+
 
 
 // var one =[1,2,3,4,9,3,6,5,0,1,3,4]
@@ -1160,16 +1153,89 @@
 // array.reduce(reducer);
 
 
-let arr = [4, 32, 2, 5, 8,3,4,2,34,0];
+// 1-masala
+// var one ='87431122784'.split('')
+// first = ""
+// one.map((item, index)=>{
+//    if(item !== one[index+1]){
+//     return first += item
+//    }
+// })
+// console.log(first);
 
-for (let i = 0; i < arr.length; i++) {
-  for (let j = i + 1; j < arr.length; j++) {
-    if (arr[i] > arr[j]) {
-      temp = arr[i];
-      arr[i] = arr[j];
-      arr[j] = temp;
+// 2-masala
+// let arr = [4, 32, 2, 5, 8,3,4,2,34,0];
+
+// for (let i = 0; i < arr.length; i++) {
+//   for (let j = i + 1; j < arr.length; j++) {
+//     if (arr[i] > arr[j]) {
+//       temp = arr[i];
+//       arr[i] = arr[j];
+//       arr[j] = temp;
+//     }
+//   }
+// }
+// console.log(arr);
+// const cars = ["BMW", "Volvo", "Saab", "Ford", "Fiat", "Audi"];
+
+// let text = "";
+// for (let i = 0; i < cars.length; i++) {
+//   text += cars[i] + '1'
+// }
+// console.log(text);
+
+// one =[12,23,4,35]
+// for ( let i=0; i< one.length; i++){
+//    x=+one[i]+'guys'
+// }
+// console.log(x);
+
+
+
+// 2 masala
+// var one =[0,1,2,3]
+// res=one.map((v)=>++v)
+// console.log(res);
+
+
+/// 3 ///
+
+
+
+
+
+
+
+//    const tuckIn = (arr1, arr2) => {
+//       let a = [arr1.shift()];
+//    let b = [arr1.pop()];
+//       for (let i = 0; i < arr2.length; i++) {
+//          arr1.push(arr2[i]);
+//       };
+//    arr1.push(b[0]);
+//    for (let n = 0; n < arr1.length; n++) {a.push(arr1[n]);};
+//    return a;
+// };
+
+//    console.log(tuckIn([1, 10], [2, 3, 4, 5, 6, 7, 8, 9]));
+//    console.log(tuckIn([15,150], [45, 75, 35]));
+//    console.log(tuckIn([[1, 2], [5, 6]], [[3, 4]]));
+
+
+var arr1=[1,9]
+var arr2=[2,3,4,5,6,7,8,9]
+var first =null;
+res=arr1.map((value,index, ar)=> {
+    first = ar[0]
+    if (arr1.length>arr2) {
+        first.unshift(arr1)
     }
-  }
-}
+})
+console.log(arr1);
 
-console.log(arr);
+// res2=arr2.map((value,index)=> value==value ? arr2.push(first): false)
+// console.log(arr2);
+
+
+
+
