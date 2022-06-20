@@ -1355,3 +1355,53 @@
 //    return array.map((v)=>  -v)
 // }
 // console.log(invert([89,98,09,67]));
+
+// function removeChar(str) {
+//     console.log(str.slice(1, -1));
+
+// };
+
+// console.log(removeChar('hello'));
+
+// function opposite(number) {
+//     return -Math.abs(number)
+// }
+// console.log(opposite(1));
+
+// function solution(str) {
+//     return str.split('').reverse().join('')
+// }
+
+// console.log(solution('hello'));
+
+// function mergeArrays(arr1, arr2) {
+// res= arr1.concat(arr2)
+// return  res.map((vale)=>vale===vale  )
+// }
+// console.log(mergeArrays([1, 2, 3, 4], [5, 3, 7, 8]));
+
+// let str = 'sam'
+// let result = []
+// res=str.split('').map((v,i)=> result.unshift(v) )
+// console.log(result.join(''));
+
+
+
+
+// output: 'mas'
+// reverse for loop
+
+
+// var summation = function (num) {
+//    return num.reduce((a, b) => a + b)
+// }
+// console.log(summation(1,23));
+
+// function squareSum(numbers) {
+//    res =+numbers.join('')
+//    console.log(+res.Math.pow(numbers, 2));
+// }
+// console.log(squareSum([1, 2]));
+
+
+// 
