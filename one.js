@@ -1386,6 +1386,14 @@
 // console.log(result.join(''));
 
 
+// let one ={
+//    on1: varl='hello',
+//    on2: varl = 'hello',
+//    on3: varl = 'hello',
+
+// }
+// console.log(obj.one);
+
 
 
 // output: 'mas'
@@ -1405,3 +1413,123 @@
 
 
 // 
+
+// function areYouPlayingBanjo(name) {
+//    return name.split(' ').map((value,index) => 
+//    { if (value[0]=='R') {
+//       return (((value + ' ' +'plays banjo')));
+ 
+//    }
+//    else if (value[0] == 'r'){
+//       return (((value + ' ' + 'plays banjo')));
+//    }
+//    else{
+//       return (((value + ' ' + 'does not play banjo')));
+//    }
+//    }).join('');
+
+// }
+// console.log(areYouPlayingBanjo('Adam'[]));
+// .)
+
+
+
+
+// const func = (num1, num2) => {
+//    let num3 = num1.concat(num2)
+//    // return num3.sort((a, b) => a - b).map((value) => value !== num3.includes(value) ? value : false)
+//    return num3.sort((a, b) => a - b).filter((v)=> v)
+// }
+
+// console.log(func([1, 2, 3, 5, 4], [5, 6, 7, 8]));
+
+// let a = [1, 2, 3, 4, 5, 5, 5]
+
+// let res = [];
+
+// a.forEach(element => {
+//    res.includes(element) ? '' : res.push(element)
+// });
+// console.log(res.sort(a));
+
+
+
+// const mergeArrays = (arr1, arr2) => Array.from(new Set(arr1.concat(arr2).sort((a, b) => a - b)))
+
+// console.log(mergeArrays([1, 2, 3, 4, 5], [5, 6, 7, 8]));
+
+
+// console.log([1,2,2,3,45,6,7,8,7,8,98]);
+// assert.deepEqual(mergeArrays([1, 2, 3, 4], [5, 6, 7, 8]), [1, 2, 3, 4, 5, 6, 7, 8], "Basic tests");
+// assert.deepEqual(mergeArrays([1, 3, 5, 7, 9], [10, 8, 6, 4, 2]), [1, 2, 3, 4, 5, 6, 7, 8, 9, 10], "Basic tests");
+// assert.deepEqual(mergeArrays([1, 3, 5, 7, 9, 11, 12], [1, 2, 3, 4, 5, 10, 12]), [1, 2, 3, 4, 5, 7, 9, 10, 11, 12], "Basic tests");
+ 
+
+// function mergeArrays(arr1, arr2) {
+//    res = arr1.concat(arr2)
+//    return res=New set
+// }
+
+// const letters = new Set(["a", "b", "c",'c'])
+// console.log(letters);
+
+
+// function abbrevName(name) {
+//    return name.split(" ").map((value) => value[0]+'').join('.')
+// }
+// console.log(abbrevName('Hellon Guys'));
+
+
+// function descendingOrder(n) {
+// return n+''
+// }
+// console.log(descendingOrder([1234].sort()));
+
+// var myArray = [1,2,3,4,];
+// myArray.sort();
+
+// console.log(myArray)
+
+// var uint8 = new Uint8Array([1, 2, 3]);
+// uint8.sort();
+
+// console.log(uint8)
+
+// var numbers = [1, 2, 3, 4, 5];
+// numbers.sort(function (a, b) {
+//    return b - a;
+// });
+// console.log(numbers)
+
+// function descendingOrder(n) { 
+//  b=n+''
+//  a= b.split('')
+//    c = a.sort((a, b) => b - a).join('')+'';
+// return +c
+// }
+// console.log(descendingOrder(1021));
+
+
+// assert.strictEqual(descendingOrder(0), 0)
+// assert.strictEqual(descendingOrder(1), 1)
+// assert.strictEqual(descendingOrder(111), 111)
+// assert.strictEqual(descendingOrder(15), 51)
+// assert.strictEqual(descendingOrder(1021), 2110)
+// assert.strictEqual(descendingOrder(123456789), 987654321)
+
+
+// let one ={
+//    key1: valus='zubayr ibnul avvom' ,
+//    key2: valus = '18',
+//    key3: valus = 'hobbi kamonda o`q uzish otchopish',
+// }
+
+// console.log(keys(one));
+
+// let str1='hjdsg3fjksdgkjhdggg'
+// let str2 ='jdsgggfjksdgkjhd3gh'
+// console.log(str1.split('').sort((a, b) => a.localeCompare(b)).join() == str2.split('').sort((a, b) => a.localeCompare(b)).join());
+
+
+// let one = ['A','a','R','r','b','A','as']
+// console.log(one.sort((a,b)=>a.localeCompare(b)));
