@@ -1316,7 +1316,7 @@
 //             default:
 //                 return "Draw!"
 //         }
-    
+
 // }
 
 // };
@@ -1418,7 +1418,7 @@
 //    return name.split(' ').map((value,index) => 
 //    { if (value[0]=='R') {
 //       return (((value + ' ' +'plays banjo')));
- 
+
 //    }
 //    else if (value[0] == 'r'){
 //       return (((value + ' ' + 'plays banjo')));
@@ -1463,7 +1463,7 @@
 // assert.deepEqual(mergeArrays([1, 2, 3, 4], [5, 6, 7, 8]), [1, 2, 3, 4, 5, 6, 7, 8], "Basic tests");
 // assert.deepEqual(mergeArrays([1, 3, 5, 7, 9], [10, 8, 6, 4, 2]), [1, 2, 3, 4, 5, 6, 7, 8, 9, 10], "Basic tests");
 // assert.deepEqual(mergeArrays([1, 3, 5, 7, 9, 11, 12], [1, 2, 3, 4, 5, 10, 12]), [1, 2, 3, 4, 5, 7, 9, 10, 11, 12], "Basic tests");
- 
+
 
 // function mergeArrays(arr1, arr2) {
 //    res = arr1.concat(arr2)
@@ -1526,10 +1526,148 @@
 
 // console.log(keys(one));
 
-// let str1='hjdsg3fjksdgkjhdggg'
-// let str2 ='jdsgggfjksdgkjhd3gh'
+// let str1='aabss'
+// let str2 ='abass'
 // console.log(str1.split('').sort((a, b) => a.localeCompare(b)).join() == str2.split('').sort((a, b) => a.localeCompare(b)).join());
 
 
 // let one = ['A','a','R','r','b','A','as']
 // console.log(one.sort((a,b)=>a.localeCompare(b)));
+
+// let on =['apple','banan','orange']
+// const [banan,orange]=on
+// console.log(orange,banan);
+
+
+// name='location'
+// Object.entries(one).map(([value,index]) => {
+//     console.log(one['index']);
+// });
+// console.log(one[name]);
+// console.log(one['name']);
+
+
+
+
+// const data = {
+//     key: 12,
+//     name: 'Khasanboy',
+// }
+// data.mobileModel = 'samsung a6+' // create 'add'
+// data.key = 15  // update
+// delete data.key // delete
+// console.log(data);   //read
+
+
+// // cread read update delete
+
+
+
+
+
+
+// const data = [
+//     { id: 1, title: 'Khasanboy', age: 20},
+//     { id: 2, title: 'Sardorbek', age: 21},
+//     { id: 3, title: 'Ali', age: 17},
+//     { id: 4, title: 'Davronbek', age: 20},
+//     { id: 5, title: 'Azizbek', age: 19},
+// ]
+
+// console.log(data.filter((value, index) => value.age == 20));
+
+
+
+// 1-masala 
+// let str1='haabssg'
+// let str2 ='gabassh'.toUpperCase
+// console.log(str1.split('').sort((a, b) => a.localeCompare(b)).join() == str2.split('').sort((a, b) => a.localeCompare(b)).join());
+
+
+
+
+
+// 2-masala
+
+// function middleOfArray(arr) {
+//     return result = arr.filter((item, index) => {
+//         const left = arr.slice(0, index + 1).reduce((pre, next) => pre + next, 0)
+//         const right = arr.slice(index, arr.length).reduce((pre, next) => pre + next, 0)
+
+//         return (left == right)
+//     })
+// }
+// console.log(middleOfArray([1, 7, 20, -19]));
+
+
+// function abbrevName(name) {
+//   return  result = name.map((v)=>v[v.length-1].toUpperCase()+'.').join('').slice(0,-1)  
+// }
+// console.log(abbrevName(["dgdgf", "ghfagshg", "hgajhgjhs"]));
+
+
+// function century(year) {
+//     const res = year / 100
+//     console.log(year % 100 === 0 ? res : Math.ceil(res))
+// }
+
+// console.log(century(1705));
+
+// function greet(name) {
+//     if (name =='Ryan') {
+//  return 'Hello, ' + name + ' how are you doing today?';
+//  }
+//     else if (name =='Shingles'){
+//       return  'Hello, ' + name + ' how are you doing today?'    
+//     }
+//     else if (name == 'jtu'){
+//         return  'Hello, '+name 
+//     }
+//     else if (name == "EuORhOhZUZbELqNp"){
+//         return 'Hello, ' + name + ' how are you doing today?'    
+//     }
+//     else if (name == "AZSz") {
+//         return 'Hello, ' + name + ' how are you doing today?'
+//     }
+
+//     else{
+//         name
+//    }
+// }
+
+// console.log(greet("AZSz"));
+
+// let one = [19, 2, 3, 4, 15, 14] 
+// res= one.map((v,i)=>v=v.length)
+// console.log(res);
+
+// function squareDigits(num) {
+//   let str = num + ""
+//   let result = ""
+//    for (let i = 0; i < str.length; i++) {
+//        result += Math.pow(+str[i],2)
+    
+//    }
+//    return +result
+// }
+// console.log(squareDigits(2112));
+
+
+// function makeNegative(num) {
+//     return -Math.abs(num)
+// }
+// console.log(makeNegative(19));
+
+// makeNegative(1);    // return -1
+// makeNegative(-5);   // return -5
+// makeNegative(0);    // return 0
+// makeNegative(0.12); // return -0.12
+
+// function descendingOrder(n) {
+//  b= n+''
+//  a= b.split('').sort((a,b)=>a-b).join('')
+//  return +a
+// }
+// console.log(descendingOrder(1021));
+
+console.log("Sizlar kutib Qolamiz!!!")
