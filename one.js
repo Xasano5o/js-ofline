@@ -1559,7 +1559,7 @@
 // console.log(data);   //read
 
 
-// // cread read update delete
+// // cread read update delete 
 
 
 
@@ -1776,3 +1776,100 @@
 //         } else return false
 //     } else return false
 // }
+
+//  var one = '874311212784'.split('').sort((a,b)=>a-b)
+// first = ""
+// one.map((item, index)=>{
+//    if(item == one[index+1]){
+//     return first += item
+//    }
+// })
+// console.log(first);
+
+
+// const func = (arr, num) => {
+//     return arr.map((value)=>value )
+// }
+
+// console.log(func([1, 2, 3, 4 ,5 ,5, 2], 1));
+
+
+// var object = new Object();
+// console.log(object);
+
+
+
+// let one ={ 
+//     name: 'xasan',
+//     age: 20,
+//     hobbe: 'archery',
+   
+// }
+// if (name<08,06,22) {
+//     return  'job fronted'
+// }
+// else{
+//     return 'else no if yes in sha allah '
+// }
+// console.log(Array(one));
+
+
+
+// var min = function (list) {
+
+//     return Math.min.apply(Math, list)
+// }
+
+// var max = function (list) {
+
+//     return Math.max(list);
+// }
+// console.log(min([-52, 56, 30, 29, -54, 0, -110]));
+
+
+// function century(year) {
+//  res=year/100
+//  return   year % 100== 0 ? res  : Math.ceil(year)
+// }
+// console.log(century(1705));
+
+// function grow(x) {
+//     b = x+' '.split(' ').map((valeu) => valeu*valeu).join('')
+//   return   b.split(' ').map((valeu) => valeu * valeu).join('')
+// }
+// console.log(grow(123));
+
+
+// function filter_list(l) {
+// return l.filter((val)=>val.length==val.Number )
+// }
+// console.log(filter_list([1, 2, 'a', 'b']));
+
+
+// function highAndLow(numbers) {
+//     res= numbers.split(' ').sort((a, b) => b - a)
+//     return `${res[0]} ${res[res.length-1]}`
+// }
+// console.log(highAndLow("8 3 -5 42 -1 0 0 -9 4 7 4 -4"));
+
+// function getLengthOfMissingArray(arrayOfArrays) {
+//     return arrayOfArrays.flat(Infinity)
+// }
+// console.log(getLengthOfMissingArray([[1, 2], [4, 5, 1, 1], [1], [5, 6, 7, 8, 9]]));
+
+
+// function getCount(str) {
+//  res=str.match(/[aeiou]/g)
+//  if (res===null) {
+//     return 0
+//  }
+//  return res
+// }
+// console.log(getCount('my pyx'));
+
+// function findShort(s) {
+// res=s.split(' ')
+//  return res.sort((a,b)=>a.length-b.length)[0].length
+ 
+// }
+// console.log(findShort("bitcoin take over the world maybe who knows perhaps"));
