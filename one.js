@@ -1646,7 +1646,7 @@
 //   let result = ""
 //    for (let i = 0; i < str.length; i++) {
 //        result += Math.pow(+str[i],2)
-    
+
 //    }
 //    return +result
 // }
@@ -1803,7 +1803,7 @@
 //     name: 'xasan',
 //     age: 20,
 //     hobbe: 'archery',
-   
+
 // }
 // if (name<08,06,22) {
 //     return  'job fronted'
@@ -1870,6 +1870,111 @@
 // function findShort(s) {
 // res=s.split(' ')
 //  return res.sort((a,b)=>a.length-b.length)[0].length
- 
+
 // }
 // console.log(findShort("bitcoin take over the world maybe who knows perhaps"));
+
+// function isIsogram(str) { 
+// return  str.split('').map((val,ind)=>val==ind+1? true:false)
+// }
+// console.log(isIsogram("Dermatoglyphics"));
+
+// assert.strictEqual(isIsogram("Dermatoglyphics"), true);
+// assert.strictEqual(isIsogram("isogram"), true);
+// assert.strictEqual(isIsogram("aba"), false, "same chars may not be adjacent");
+// assert.strictEqual(isIsogram("moOse"), false, "same chars may not be same case");
+// assert.strictEqual(isIsogram("isIsogram"), false);
+// assert.strictEqual(isIsogram(""), true, "an empty string is a valid isogram");
+
+// function friend(friends) {
+// return friends.filter((val)=>val.length==4)
+// }
+// console.log( friend( ["Ryan", "Kieran", "Mark"]));
+
+
+    // assert.deepEqual(friend(["Ryan", "Kieran", "Mark"]), ["Ryan", "Mark"])
+    // assert.deepEqual(friend(["Ryan", "Jimmy", "123", "4", "Cool Man"]), ["Ryan"])
+    // assert.deepEqual(friend(["Jimm", "Cari", "aret", "truehdnviegkwgvke", "sixtyiscooooool"]), ["Jimm", "Cari", "aret"])
+    // assert.deepEqual(friend(["Love", "Your", "Face", "1"]), ["Love", "Your", "Face"])
+
+//     function XO(str) {
+//         let res =['xxOo']
+//         return str.split("").map((val) => val == val ? true : false)
+//     }
+// console.log(XO('xxOo xo '));
+
+
+
+// function getsearch(tetx) {
+//     return   data.filter((valu)=>valu.name.toLocaleLowerCase().includes(tetx.toLocaleLowerCase()))
+// }
+// console.log(getsearch('n')); 
+
+
+// function getserch(arr,num) {
+//     let i= 1
+//     let b =[]
+//    arr.sort((a,b)=>a-b).map((val,ind)=>{
+//     if (  val!==arr[ind+1]) i=1
+//    if (num > i) { b.push(val)
+//   ++i}
+//    else{i=1}})
+//    console.log(b); 
+//  }
+// getserch([1,2,3,4,3,4,4,1,3,2,9,3],4);
+
+
+// doom orqali ulangan 
+const data = [
+    { id: 1, status: 're-exam', name: 'Rakhimjonov Davronbek' },
+    { id: 2, status: 'passed', name: 'Komil Muhammadiyev' },
+    { id: 3, status: 'passed', name: 'Mahkamov Tohirbek' },
+    { id: 4, status: 'failed', name: 'Nuraliev Zuhriddin' },
+    { id: 5, status: 're-exam', name: 'Dilshodbek Boymamatov' },
+    { id: 6, status: 'passed', name: 'Muhharam Ozodboyeva' },
+    { id: 7, status: 'failed', name: 'Azimov Umarbek' },
+    { id: 8, status: 'passed', name: 'Abdurazzaqov Xasan' },
+    { id: 9, status: 'passed', name: 'Davlyatov MuhammadAli' },
+    { id: 10, status: 'passed', name: 'Zohidova Ruqiya' },
+    { id: 11, status: 'passed', name: 'Abduhamidov Nurbek' },
+    { id: 12, status: 'passed', name: 'Nizamov Sardorbek' },
+];
+
+// let body=document.getElementById('body')
+// console.log(body);
+
+// let =res=``
+// data.map((value)=>{ 
+//     res += `<h1>${value.id % 2 === 0 ? `<h1>${value.id} ${value.status} ${value.name}</h1>` : ''}</h1>`
+// })
+// body.innerHTML=res
+
+
+// delete id orqali qilamiz 
+// function getserCH(key) {
+//    let res= data.filter((value)=>value.id!==key)
+//    console.log(res);
+// }
+// getserCH(11) 
+
+// function getsecrh(text) {
+//     let res=data.filter((value)=>value.id % 2===0 && value.name)
+//     console.log(res);
+// }
+
+// getsecrh('z')
+
+// sort qilish 
+// function getSort(key) {
+//     let  res =data.sort((a,b)=>a[key].localeCompare(b[key]))
+// console.log(res);
+// }
+
+// getSort('name')
+
+// function sumTwoSmallestNumbers(numbers) {
+//  arr =  numbers.sort((a, b) => a - b)
+// return arr[0]+arr[1]
+// }
+
+// console.log(sumTwoSmallestNumbers([5, 8, 12, 19, 22]));
