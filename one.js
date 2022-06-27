@@ -2020,8 +2020,32 @@ const data = [
 // return result
 // }
 
-console.log(uncensor('A**Z*N*', 'MAIG',));
+// console.log(uncensor('A**Z*N*', 'MAIG',));
     // ,'AMAZING'
     // ['xyz', '', 'xyz'],
     // ['', '', ''],
     // ['***', 'abc', 'abc']
+
+// function reverseWords(str) {
+  
+//  res=str.split(' ').map((val)=> {
+//     return val.split("").reverse().join("")
+// })
+// return res.join(" ")
+// }
+// console.log(reverseWords('The quick brown fox jumps over the lazy dog.'));
+
+// var arr = ['ab','bf','cf']
+// console.log(arr.reverse());
+
+// function isLeapYear(year) {
+//     return year  %2 == 0 ?  true: false
+
+// }
+// console.log(isLeapYear(1984));
+
+function stray(numbers) {
+    res = numbers.filter((val) => val % 2 == 0 ? val : false)
+    b = res.join('')
+    return +b
+}
