@@ -1892,10 +1892,10 @@
 // console.log( friend( ["Ryan", "Kieran", "Mark"]));
 
 
-    // assert.deepEqual(friend(["Ryan", "Kieran", "Mark"]), ["Ryan", "Mark"])
-    // assert.deepEqual(friend(["Ryan", "Jimmy", "123", "4", "Cool Man"]), ["Ryan"])
-    // assert.deepEqual(friend(["Jimm", "Cari", "aret", "truehdnviegkwgvke", "sixtyiscooooool"]), ["Jimm", "Cari", "aret"])
-    // assert.deepEqual(friend(["Love", "Your", "Face", "1"]), ["Love", "Your", "Face"])
+// assert.deepEqual(friend(["Ryan", "Kieran", "Mark"]), ["Ryan", "Mark"])
+// assert.deepEqual(friend(["Ryan", "Jimmy", "123", "4", "Cool Man"]), ["Ryan"])
+// assert.deepEqual(friend(["Jimm", "Cari", "aret", "truehdnviegkwgvke", "sixtyiscooooool"]), ["Jimm", "Cari", "aret"])
+// assert.deepEqual(friend(["Love", "Your", "Face", "1"]), ["Love", "Your", "Face"])
 
 //     function XO(str) {
 //         let res =['xxOo']
@@ -1978,3 +1978,29 @@ const data = [
 // }
 
 // console.log(sumTwoSmallestNumbers([5, 8, 12, 19, 22]));
+
+// function validatePIN(pin) {
+
+//     console.log(typeof +pin);
+//     console.log(pin.match(/[0-9]/g));
+//     res = pin
+//     if (+res < 0) return false
+//     if (res.length === 4) { return true }
+//     if (res.length === 6) { return true }
+
+//     // else{ return false}
+// }
+// console.log(validatePIN('1234iij'));
+
+
+function validatePIN(a) {
+    if (a.length == 4 || a.length == 6 && +a >= 0) {
+        a = a.match(/[0-9]/g).join('')
+        if (a.length == 4) return true
+        else if (a.length == 6) {
+            return true
+        } else return false
+    } else return false
+}
+
+console.log(validatePIN('1234iij'));
