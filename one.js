@@ -1966,7 +1966,7 @@ const data = [
 
 // sort qilish 
 // function getSort(key) {
-//     let  res =data.sort((a,b)=>a[key].localeCompare(b[key]))
+//     let  res =data.sort((a,b)=>infected)
 // console.log(res);
 // }
 
@@ -1981,26 +1981,47 @@ const data = [
 
 // function validatePIN(pin) {
 
-//     console.log(typeof +pin);
+
 //     console.log(pin.match(/[0-9]/g));
 //     res = pin
 //     if (+res < 0) return false
-//     if (res.length === 4) { return true }
-//     if (res.length === 6) { return true }
-
-//     // else{ return false}
+//     if (res.length === 4) return true 
+//     if (res.length === 6) return true 
 // }
+//     // else{ return false}
+
 // console.log(validatePIN('1234iij'));
 
 
-function validatePIN(a) {
-    if (a.length == 4 || a.length == 6 && +a >= 0) {
-        a = a.match(/[0-9]/g).join('')
-        if (a.length == 4) return true
-        else if (a.length == 6) {
-            return true
-        } else return false
-    } else return false
-}
+// function validatePIN(a) {
+//     if (a.length == 4 || a.length == 6 && +a >= 0) {
+//         a = a.match(/[0-9]/g).join('')
+//         if (a.length == 4) return true
+//         else if (a.length == 6) {
+//             return true
+//         } else return false
+//     } else return false
+// }
 
-console.log(validatePIN('1234iij'));
+// console.log(validatePIN('1234iij'));
+
+
+// function uncensor(infected, discovered) {
+//     let result =""
+//     let index = 0
+//   infected.split("").map((item)=>{
+//     if(item==="*"){
+//         result += discovered[index]
+//         index++
+//     } else {
+//         result += item
+//     }
+//   })
+// return result
+// }
+
+console.log(uncensor('A**Z*N*', 'MAIG',));
+    // ,'AMAZING'
+    // ['xyz', '', 'xyz'],
+    // ['', '', ''],
+    // ['***', 'abc', 'abc']
