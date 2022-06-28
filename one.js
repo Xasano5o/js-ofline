@@ -1940,6 +1940,16 @@ const data = [
     { id: 12, status: 'passed', name: 'Nizamov Sardorbek' },
 ];
 
+
+// function update(id,key,val) {
+//     return data.map((value)=>value.id===id ?{...value, [key]:val}:value )
+// }
+// console.log(update(11,'name','xolnmat'));
+
+// function get(text) {
+//     return res = data.sort((a, b) => a.name.localeCompare(b.name))
+// }
+// console.log(get('name'));
 // let body=document.getElementById('body')
 // console.log(body);
 
@@ -2044,8 +2054,47 @@ const data = [
 // }
 // console.log(isLeapYear(1984));
 
-function stray(numbers) {
-    res = numbers.filter((val) => val % 2 == 0 ? val : false)
-    b = res.join('')
-    return +b
-}
+// function stray(numbers) {
+//      return res = numbers.map((val,i)=>{
+//          console.log(val==[i+1] );
+//      })
+// }
+// console.log(stray([1,1,3]));
+
+// function stray(numbers) {
+//   res = numbers.sort((a,b)=>a-b)
+// if (numbers[0]<numbers[1]) return numbers[0]
+// else return Number(numbers.splice(-1).join(''))
+// }
+// console.log(stray([17, 17, 9, 17, 17, 17, 17]))
+
+
+// function oddOrEven(array) {
+//     b = array.reduce((a, b) => a + b)
+//     return b % 2 == 0 ? 'even': 'odd'
+// }
+
+// function solution(nums) {
+//     if (nums===null) {return [] }
+//    return  b = nums.sort((a, b) => a - b)
+
+// }
+// console.log(solution([]));
+
+// const binaryArrayToNumber = arr => {
+//  return !arr.toString()
+// };
+// console.log(binaryArrayToNumber(101010));
+
+// Test.assertEquals(binaryArrayToNumber(), 1);
+// Test.assertEquals(binaryArrayToNumber([0, 0, 1, 0]), 2);
+// Test.assertEquals(binaryArrayToNumber([1, 1, 1, 1]), 15);
+// Test.assertEquals(binaryArrayToNumber([0, 1, 1, 0]), 6)
+
+
+
+// const parseArray = arr => {
+//     const res = arr.join("");
+//     return parseInt(res, 2);
+// };
+// console.log(parseArray([1, 1, 1, 1]));
