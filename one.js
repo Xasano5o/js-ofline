@@ -2098,3 +2098,4 @@ const data = [
 //     return parseInt(res, 2);
 // };
 // console.log(parseArray([1, 1, 1, 1]));
+// hfhdhs
