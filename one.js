@@ -839,7 +839,7 @@
 // // function getCount(str) {
 // //   let strStr = 'aeuio'
 // //   return str.split('').filter((v)=> strStr.includes(v)).length;
-// // }
+// //
 // // 2 months agoRefactorDiscuss
 // // 6 kyu
 // // Assemble string
@@ -856,6 +856,7 @@
 // // }
 // // 2 months agoRefactorDiscuss
 // // 6 kyu
+
 // // Who likes it?
 // // JavaScript:
 // // function likes(names) {
@@ -1925,20 +1926,20 @@
 
 
 // doom orqali ulangan 
-const data = [
-    { id: 1, status: 're-exam', name: 'Rakhimjonov Davronbek' },
-    { id: 2, status: 'passed', name: 'Komil Muhammadiyev' },
-    { id: 3, status: 'passed', name: 'Mahkamov Tohirbek' },
-    { id: 4, status: 'failed', name: 'Nuraliev Zuhriddin' },
-    { id: 5, status: 're-exam', name: 'Dilshodbek Boymamatov' },
-    { id: 6, status: 'passed', name: 'Muhharam Ozodboyeva' },
-    { id: 7, status: 'failed', name: 'Azimov Umarbek' },
-    { id: 8, status: 'passed', name: 'Abdurazzaqov Xasan' },
-    { id: 9, status: 'passed', name: 'Davlyatov MuhammadAli' },
-    { id: 10, status: 'passed', name: 'Zohidova Ruqiya' },
-    { id: 11, status: 'passed', name: 'Abduhamidov Nurbek' },
-    { id: 12, status: 'passed', name: 'Nizamov Sardorbek' },
-];
+// const data = [
+//     { id: 1, status: 're-exam', name: 'Rakhimjonov Davronbek' },
+//     { id: 2, status: 'passed', name: 'Komil Muhammadiyev' },
+//     { id: 3, status: 'passed', name: 'Mahkamov Tohirbek' },
+//     { id: 4, status: 'failed', name: 'Nuraliev Zuhriddin' },
+//     { id: 5, status: 're-exam', name: 'Dilshodbek Boymamatov' },
+//     { id: 6, status: 'passed', name: 'Muhharam Ozodboyeva' },
+//     { id: 7, status: 'failed', name: 'Azimov Umarbek' },
+//     { id: 8, status: 'passed', name: 'Abdurazzaqov Xasan' },
+//     { id: 9, status: 'passed', name: 'Davlyatov MuhammadAli' },
+//     { id: 10, status: 'passed', name: 'Zohidova Ruqiya' },
+//     { id: 11, status: 'passed', name: 'Abduhamidov Nurbek' },
+//     { id: 12, status: 'passed', name: 'Nizamov Sardorbek' },
+// ]; 
 
 
 // function update(id,key,val) {
@@ -2031,13 +2032,13 @@ const data = [
 // }
 
 // console.log(uncensor('A**Z*N*', 'MAIG',));
-    // ,'AMAZING'
-    // ['xyz', '', 'xyz'],
-    // ['', '', ''],
-    // ['***', 'abc', 'abc']
+// ,'AMAZING'
+// ['xyz', '', 'xyz'],
+// ['', '', ''],
+// ['***', 'abc', 'abc']
 
 // function reverseWords(str) {
-  
+
 //  res=str.split(' ').map((val)=> {
 //     return val.split("").reverse().join("")
 // })
@@ -2103,3 +2104,19 @@ const data = [
 // delete
 // edit 
 // get
+
+// function removeSmallest(numbers) {
+//     let count = 0;
+//     let res = [];
+//     numbers.forEach((e, i) => {
+
+//         if (e !== Math.min(...numbers) || count > 0) {
+//             res.push(e);
+//         }
+//         if (e == Math.min(...numbers)) count++;
+//     });
+//     return res
+// }
+
+
+// console.log(removeSmallest([31, 2, 1, 4, 5, 1]))
