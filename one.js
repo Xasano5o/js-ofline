@@ -2196,15 +2196,35 @@ const data = [
 // }
 
 
-class student {
-    constructor (name,surname){
-        this.name=name
-        this.surname=surname
-    }
+// class student {
+//     constructor (name,surname){
+//         this.name=name
+//         this.surname=surname}
+// getName(){
+// console.log(this.name, this.surname);
+// }}
+// const info= new student('web','academy') 
+// info.getName()
 
-getName(){
-console.log(this.name, this.surname);
+class Cat {
+    constructor(name, surname) {
+        this.name = name
+        this.surname = surname
+    }
+    getsurname() {
+        console.log(this.name, this.surname);
+    }
 }
+class Departement extends Cat {
+    constructor(name, surname, departement) {
+        super(name, surname, departement)
+        this.name = name
+        this.surname = surname
+        this.departement = departement
+    }
+    getDep() {
+        console.log(this.name, this.surname);
+    }
 }
-const info= new student('web','academy') 
-info.getName()
+const info = new Departement('my academy', 'hello guys')
+info.getDep()
