@@ -2164,10 +2164,10 @@ const data = [
 // console.log(getupdate(11,'name','eshmat'));
 
 
-function getdeletee(val, key, text) {
-    return data.map((value) => value.id == val ? { ...value, [key]: text } : value)
-}
-console.log(getdeletee(1, 'status', 'Ruqiya'));
+// function getdeletee(val, key, text) {
+//     return data.map((value) => value.id == val ? { ...value, [key]: text } : value)
+// }
+// console.log(getdeletee(1, 'name', 'zubayir'));
 // function update(id,status, name){
 //     data[id-1] = {id: id, status: status, name: name}
 // }
@@ -2183,13 +2183,28 @@ console.log(getdeletee(1, 'status', 'Ruqiya'));
 //     return data.filter((val)=>val.id!==text)
 // }
 // console.log(getdelete(1));
-let arr = [1, 2,3,7]
-let arr2 = [5,9]
-for (let i = 0; i < arr2.length; i++) {
-    // console.log(arr2[i]);
-let=0;
-    console.log(arr[j]);
-  for (let j = 0; j < arr.length; j++) {
-        // console.log(arr[i]);
+
+// let arr = [1, 2,3,7]
+// let arr2 = [5,9]
+// for (let i = 0; i < arr2.length; i++) {
+//     // console.log(arr2[i]);
+// let=0;
+//     console.log(arr[j]);
+//   for (let j = 0; j < arr.length; j++) {
+//         // console.log(arr[i]);
+//     }
+// }
+
+
+class student {
+    constructor (name,surname){
+        this.name=name
+        this.surname=surname
     }
+
+getName(){
+console.log(this.name, this.surname);
 }
+}
+const info= new student('web','academy') 
+info.getName()
