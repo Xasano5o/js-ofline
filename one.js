@@ -2120,3 +2120,76 @@
 
 
 // console.log(removeSmallest([31, 2, 1, 4, 5, 1]))
+
+
+
+const data = [
+    { id: 1, status: 're-exam', name: 'Rakhimjonov Davronbek' },
+    { id: 2, status: 'passed', name: 'Komil Muhammadiyev' },
+    { id: 3, status: 'passed', name: 'Mahkamov Tohirbek' },
+    { id: 4, status: 'failed', name: 'Nuraliev Zuhriddin' },
+    { id: 5, status: 're-exam', name: 'Dilshodbek Boymamatov' },
+    { id: 6, status: 'passed', name: 'Muhharam Ozodboyeva' },
+    { id: 7, status: 'failed', name: 'Azimov Umarbek' },
+    { id: 8, status: 'passed', name: 'Abdurazzaqov Xasan' },
+    { id: 9, status: 'passed', name: 'Davlyatov MuhammadAli' },
+    { id: 10, status: 'passed', name: 'Zohidova Ruqiya' },
+    { id: 11, status: 'passed', name: 'Abduhamidov Nurbek' },
+    { id: 12, status: 'passed', name: 'Nizamov Sardorbek' },
+];
+
+// 1- sort
+// function getsort(key) {
+//      res= data.sort((a,b)=>a.name.localeCompare(b.name))
+//     console.log(res);
+// }
+// console.log( getsort( 'name')); 
+
+// 2-search
+// function getserch(text) {
+//     return res=data.filter((val)=>val.name.toLocaleLowerCase().includes(text.toLocaleLowerCase()))
+// }
+// console.log(getserch('n'));
+
+// 3-delete 
+// function getdelete(text) {
+//     return data.filter((val)=>val.id!==text)
+// }
+// console.log(getdelete(1));
+
+// 4-update
+// function getupdate(val,key,text) {
+//     return data.map((value)=>value.id==val ? {...value,[key]:text}:value)
+// }
+// console.log(getupdate(11,'name','eshmat'));
+
+
+function getdeletee(val, key, text) {
+    return data.map((value) => value.id == val ? { ...value, [key]: text } : value)
+}
+console.log(getdeletee(1, 'status', 'Ruqiya'));
+// function update(id,status, name){
+//     data[id-1] = {id: id, status: status, name: name}
+// }
+// update(1,'passed', 'shokir')
+// console.log(data);
+
+// function getsort(text) {
+//     return data.sort((a,b)=>a.name.localeCompare(b.name))
+// }
+// console.log(getsort('name'));
+
+// function getdelete(text) {
+//     return data.filter((val)=>val.id!==text)
+// }
+// console.log(getdelete(1));
+let arr = [1, 2,3,7]
+let arr2 = [5,9]
+for (let i = 0; i < arr2.length; i++) {
+    // console.log(arr2[i]);
+let=0;
+    console.log(arr[j]);
+  for (let j = 0; j < arr.length; j++) {
+        // console.log(arr[i]);
+    }
+}
