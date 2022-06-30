@@ -2229,3 +2229,17 @@ const data = [
 // }
 // const info = new Departement('my academy', 'hello guys')
 // info.getDep()
+
+// function shortcut(string) {
+//     let res =''
+// for (let i = 0; i < string.length; i++) {
+// //     if (string[i]=="a"&&"e"&&'o') {
+// //    return res+=string[i]
+// //  }
+
+//     console.log(string[i]);    
+// }
+// return res
+// }
+// console.log(shortcut('hello'));
+

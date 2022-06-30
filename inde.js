@@ -140,3 +140,32 @@
 
 
 
+var filesScanned = { count: 0, infected: 0 };
+var scanCount = document.querySelector(".scan-count");
+var infected = document.querySelector(".infected-count");
+
+var scanning = anime({
+    targets: filesScanned,
+    autoplay: false,
+    count: 100,
+    infected: 8,
+    delay: 1000,
+    duration: 2000,
+    easing: "linear",
+    round: 1,
+    update: function (anim) {
+        if (anim.currentTime < 1000) {
+            document.querySelector(".update-cb").innerHTML = "Creating an Index...";
+        }
+    },
+    begin: function () {
+        document.querySelector(".begin-cb").innerHTML = "Starting the Scan...";
+    },
+    run: function () {
+        scanCount.innerHTML = filesScanned.count;
+        infected.innerHTML = filesScanned.infected;
+    },
+    complete: function () {
+        document.querySelector(".complete-cb").innerHTML = "Scan Complete...";
+    }
+});
