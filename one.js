@@ -364,7 +364,7 @@
 // // console.log(months);
 // // const animals = ['elephant','elephant','elephant','elephant','elephant' ,'xasan','xaasd'];
 
-// // animals.map((valus,index)=>!valus.includes('x')? console.log(valus):console.log("x lik element"))
+// // animals.map((valus,i)=>!valus.includes('x')? console.log(valus):console.log("x lik element"))
 // // // oy.slice(1,2)
 
 
@@ -2230,16 +2230,26 @@ const data = [
 // const info = new Departement('my academy', 'hello guys')
 // info.getDep()
 
+
+// function update(id,val,edit,edssatus,newsatatus) {
+//     return data.map((value) => value.id === id ? { ...value, [val]: edit,[edssatus]:newsatatus } : value,)
+// }
+// console.log(update(8,'name','xolmat' ,'status','newsatatus'));
+
 // function shortcut(string) {
-//     let res =''
-// for (let i = 0; i < string.length; i++) {
-// //     if (string[i]=="a"&&"e"&&'o') {
-// //    return res+=string[i]
-// //  }
-
-//     console.log(string[i]);    
+//     res = 'a, e, i, o, u'
+//     return string.split('').filter((value) => value !== "a" && value !== "e" && value !== "i" && value !== "o" && value !== "u").join('')
 // }
-// return res
-// }
-// console.log(shortcut('hello'));
+// console.log(shortcut("goodbye"));
+// a, e, i, o, u
 
+// function spinWords(string) {
+//     return string.split(' ').map((value)=>value.length >= 5 ? value.split('').reverse().join('') : value).join(' ')
+// }
+// console.log(spinWords("Hey fellow warriors"));
+
+// function invert(array) {
+//     return -array
+     
+// }
+// console.log(invert([1, 2, -1, 3, 4, 5]));
