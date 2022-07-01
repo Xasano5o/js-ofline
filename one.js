@@ -2253,40 +2253,63 @@ const data = [
      
 // }
 // console.log(invert([1, 2, -1, 3, 4, 5]));
-let one ='hello'
-setTimeout(()=>{
-    console.log(one);
-},500)
 
 
-setTimeout(() => {
-    console.log(one);
-}, 1000)
-
-setTimeout(() => {
-    console.log(one);
-}, 1300)
+// let one ='hello'
+// setTimeout(()=>{
+//     console.log(one);
+// },500)
 
 
-setTimeout(() => {
-    console.log(one);
-}, 1600)
+// setTimeout(() => {
+//     console.log(one);
+// }, 1000)
 
-// function greet() {
-//     alert('Welcome!');
+// setTimeout(() => {
+//     console.log(one);
+// }, 1300)
+
+
+// setTimeout(() => {
+//     console.log(one);
+// }, 1600)
+
+// // function greet() {
+// //     alert('Welcome!');
+// // }
+// // setTimeout(greet, 2000)
+
+
+
+// const loggedInUser = 'John';
+// function greet(userName) {
+//     alert('Welcome ' + userName + '!');
 // }
-// setTimeout(greet, 2000)
+// setTimeout(greet, 2000, loggedInUser);
 
 
 
-const loggedInUser = 'John';
-function greet(userName) {
-    alert('Welcome ' + userName + '!');
+// function _clear_() {
+//     clearTimeout(timerId);
+// } 
+clearTimeout(timerId)
+function isOdd(number) {
+    return number % 2 != 0;
 }
-setTimeout(greet, 2000, loggedInUser);
-
-
-
-function _clear_() {
-    clearTimeout(timerId);
+function isEven(number) {
+    return number % 2 == 0;
 } 
+
+function filter(numbers, fn) {
+    let results = [];
+    for (const number of numbers) {
+        if (fn(number)) {
+            results.push(number);
+        }
+    }
+    return results;
+}
+let numbers = [1, 2, 4, 7, 3, 5, 6];
+
+console.log(filter(numbers, isOdd));
+console.log(filter(numbers, isEven));
