@@ -2253,3 +2253,40 @@ const data = [
      
 // }
 // console.log(invert([1, 2, -1, 3, 4, 5]));
+let one ='hello'
+setTimeout(()=>{
+    console.log(one);
+},500)
+
+
+setTimeout(() => {
+    console.log(one);
+}, 1000)
+
+setTimeout(() => {
+    console.log(one);
+}, 1300)
+
+
+setTimeout(() => {
+    console.log(one);
+}, 1600)
+
+// function greet() {
+//     alert('Welcome!');
+// }
+// setTimeout(greet, 2000)
+
+
+
+const loggedInUser = 'John';
+function greet(userName) {
+    alert('Welcome ' + userName + '!');
+}
+setTimeout(greet, 2000, loggedInUser);
+
+
+
+function _clear_() {
+    clearTimeout(timerId);
+} 
