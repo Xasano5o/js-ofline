@@ -2313,3 +2313,5 @@ const data = [
 
 // console.log(filter(numbers, isOdd));
 // console.log(filter(numbers, isEven));
+
+// add 
