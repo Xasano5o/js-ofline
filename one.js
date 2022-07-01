@@ -2314,4 +2314,28 @@ const data = [
 // console.log(filter(numbers, isOdd));
 // console.log(filter(numbers, isEven));
 
-// add 
+let day = 3
+let dayNem
+
+switch (day) {
+ case 1:
+dayNem ='dushanba'
+break;
+    case 2:
+        dayNem = 'seshanba'
+        break; case 3:
+        dayNem = 'chorshanba'
+        break; case 1:
+        dayNem = 'payshanba'
+        break; case 1:
+        dayNem = 'jumma'
+        break; case 1:
+        dayNem = 'shanba'
+        break; case 1:
+        dayNem = 'yakshanba'
+        break;
+
+    default: 'bunday kun yoq'
+        break;
+}
+console.log(dayNem);
