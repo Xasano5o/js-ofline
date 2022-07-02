@@ -2376,3 +2376,35 @@ const data = [
 // console.log(b);
 // console.log(b);
 // console.log(a);
+
+// var obj = {
+//     name: "vivek",
+//     getName: function () {
+//         console.log(this.name);
+//     }
+
+// }
+
+// var getName = obj.getName;
+
+// var obj2 = { name: "akshay", getName };
+// obj2.getName();
+
+// var obj1 = {
+//     address: "Mumbai,India",
+//     getAddress: function () {
+//         console.log(this.address);
+//     }
+// }
+
+// var getAddress = obj1.getAddress;
+// var obj2 = { name: "akshay" };
+// console.log(obj2.getAddress());
+
+// function sayHello() {
+//     return "Hello " + this.name;
+// }
+
+// var obj = { name: "Sandy" };
+
+// console.log(sayHello.call(obj));
