@@ -2314,28 +2314,65 @@ const data = [
 // console.log(filter(numbers, isOdd));
 // console.log(filter(numbers, isEven));
 
-let day = 3
-let dayNem
+// let day = 3
+// let dayNem
 
-switch (day) {
- case 1:
-dayNem ='dushanba'
-break;
-    case 2:
-        dayNem = 'seshanba'
-        break; case 3:
-        dayNem = 'chorshanba'
-        break; case 1:
-        dayNem = 'payshanba'
-        break; case 1:
-        dayNem = 'jumma'
-        break; case 1:
-        dayNem = 'shanba'
-        break; case 1:
-        dayNem = 'yakshanba'
-        break;
+// switch (day) {
+//  case 1:
+// dayNem ='dushanba'
+// break;
+//     case 2:
+//         dayNem = 'seshanba'
+//         break; case 3:
+//         dayNem = 'chorshanba'
+//         break; case 1:
+//         dayNem = 'payshanba'
+//         break; case 1:
+//         dayNem = 'jumma'
+//         break; case 1:
+//         dayNem = 'shanba'
+//         break; case 1:
+//         dayNem = 'yakshanba'
+//         break;
 
-    default: 'bunday kun yoq'
-        break;
-}
-console.log(dayNem);
+//     default: 'bunday kun yoq'
+//         break;
+// }
+// console.log(dayNem);
+// var one = Symbol('symbol')
+// console.log(typeof one );
+
+// var x = 3;
+// var y = "3"
+// console.log(x-y);
+
+// var x = 220;
+// var y = "Hello";
+// var z = undefined;
+
+// x || y    // Returns 220 since the first value is truthy
+
+// x || z   // Returns 220 since the first value is truthy
+
+// x && y    // Returns "Hello" since both the values are truthy
+
+// y && z   // Returns undefined since the second value is falsy
+
+// if (x && y) {
+//     console.log("Code runs"); // This block runs because x && y returns "Hello" (Truthy)
+// }
+
+
+// if (x || z) {
+//     console.log("Code runs");  // This block runs because x || y returns 220(Truthy)
+// }
+// var a = 'hello'
+// var b = a
+
+// var d=[123]
+// var b=d
+
+// console.log(d);
+// console.log(b);
+// console.log(b);
+// console.log(a);
