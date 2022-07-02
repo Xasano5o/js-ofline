@@ -2457,7 +2457,29 @@ const data = [
 // }
 // console.log(Strings(["foobar", [["hello"]]]));
 
-function solution(str, ending) {
-    return str.endsWith(ending)
-}
-console.log(solution('abcde', 'cde'));
+// function solution(str, ending) {
+//     return str.endsWith(ending)
+// }
+// console.log(solution('abcde', 'cde'));
+
+
+// function isIsogram(str) {
+//     return new Set(str)
+// }
+// console.log(isIsogram(("Dermatoglyphics")));
+
+// var one =''.includes()
+
+
+// function XO(str) {
+//     if (str.toLocaleLowerCase() == 'xo' ||"xxOo".toLocaleLowerCase()) {
+//         return true
+//     }
+//     else  return  false
+// }
+// console.log(XO("Oo"));
+
+// function XO(str) {
+//     return str.split(" ").map((val) => val ==val.includes('xo') ? true : false)
+// }
+// console.log(XO('xo'));
