@@ -2495,27 +2495,55 @@ const data = [
 // console.log(maskify('4556364607935616'));
 
 
-let user={
-   login: 'webbrain',
-   pasword: 12345,
-   name:'Abdurazakov xasan',
-   age: 20,
-   location: 'webbrainacademy',
-   bug: 'kiritilgan malumodda xatolik bor !!!'
-}
-console.log('Tekshirilmoqda......');
+// let user={
+//    login: 'webbrain',
+//    pasword: 12345,
+//    name:'Abdurazakov xasan',
+//    age: 20,
+//    location: 'webbrainacademy',
+//    bug: 'kiritilgan malumodda xatolik bor !!!'
+// }
+// console.log('Tekshirilmoqda......');
  
-const getName=(login,pasword,callback)=>{
-    setTimeout(()=>{
-        if (login===user.login && pasword===user.pasword) {
-        callback(user.name);    
-        }
-        else if (!(login === user.login && pasword === user.pasword)) {
-            callback(user.bug);
-        }
-    },2000);
+// const getName=(login,pasword,callback)=>{
+//     setTimeout(()=>{
+//         if (login===user.login && pasword===user.pasword) {
+//         callback(user.name);    
+//         }
+//         else if (!(login === user.login && pasword === user.pasword)) {
+//             callback(user.bug);
+//         }
+//     },2000);
   
-};
-getName('webbrain',12345,(usr,user1)=>{
-    console.log(`${usr} welkome to google company 😎`);
-})
+// };
+// getName('webbrain',123455,(usr,user1)=>{
+//     console.log(`${usr} welkome to google company 😎`);
+// })
+
+// function filter(numbers) {
+//     let results = [];
+//     for (const number of numbers) {
+//         if (number % 2 != 0) {
+//             results.push(number);
+//         }
+//     }
+//     return results;
+// }
+// let numbers = [1, 2, 4, 7, 3, 5, 6];
+// console.log(filter(numbers));
+
+function isOdd(number) {
+    return number % 2 != 0;
+}
+
+function filter(numbers, fn) {
+    let results = [];
+    for (const number of numbers) {
+        if (fn(number)) {
+            results.push(number);
+        }
+    }
+    return results;
+}
+let numbers = [1, 2, 4, 7, 3, 5, 6];
+console.log(filter(numbers, isOdd));
