@@ -2571,3 +2571,6 @@ const data = [
 // console.log(one === too);
 // console.log(one ==  too);
 
+// const name = null ?? 'John';
+// console.log(name); 
+
