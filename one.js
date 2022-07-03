@@ -2566,8 +2566,8 @@ const data = [
 
 // console.log(oddNumbers);
 
-var one =null
-var too=undefined
-console.log(one === too);
-console.log(one ==  too);
+// var one =null
+// var too=undefined
+// console.log(one === too);
+// console.log(one ==  too);
 
