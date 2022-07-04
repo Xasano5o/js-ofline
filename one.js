@@ -2603,22 +2603,24 @@ const data = [
 
 
 
-let user ={
-    login: 'webbrain',
-    pasword: 12345,
-    name: 'Abdurazakov xasan'
-}
-console.log('Tekshirilmoqda......');
-getname=(login,pasword,callback)=>{
-setTimeout(()=>{
-    if (login === user.login && pasword === user.pasword) {
-        return callback(user.name)
-    }
-},1000)
+// let user ={
+//     login: 'webbrain',
+//     pasword: 12345,
+//     name: 'Abdurazakov xasan'
+// }
+// console.log('Tekshirilmoqda......');
+// getname=(login,pasword,callback)=>{
+// setTimeout(()=>{
+//     if (login === user.login && pasword === user.pasword) {
+//         return callback(user.name)
+//     }
+// },1000)
 
-}
-const usr =getname('webbrain',12345, (usr)=> {
-    console.log(`${usr} welcome  `)
-}  );
+// }
+// const usr =getname('webbrain',12345, (usr)=> {
+//     console.log(`${usr} welcome  `)
+// }  );
+
+
 
 
