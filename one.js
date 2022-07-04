@@ -2495,30 +2495,6 @@ const data = [
 // console.log(maskify('4556364607935616'));
 
 
-// let user={
-//    login: 'webbrain',
-//    pasword: 12345,
-//    name:'Abdurazakov xasan',
-//    age: 20,
-//    location: 'webbrainacademy',
-//    bug: 'kiritilgan malumodda xatolik bor !!!'
-// }
-// console.log('Tekshirilmoqda......');
- 
-// const getName=(login,pasword,callback)=>{
-//     setTimeout(()=>{
-//         if (login===user.login && pasword===user.pasword) {
-//         callback(user.name);    
-//         }
-//         else if (!(login === user.login && pasword === user.pasword)) {
-//             callback(user.bug);
-//         }
-//     },2000);
-  
-// };
-// getName('webbrain',123455,(usr,user1)=>{
-//     console.log(`${usr} welkome to google company 😎`);
-// })
 
 // function filter(numbers) {
 //     let results = [];
@@ -2573,4 +2549,58 @@ const data = [
 
 // const name = null ?? 'John';
 // console.log(name); 
+
+// const age = undefined ?? 28;
+// console.log(age);
+
+// let remainder = Infinity % 2;
+// console.log(remainder); 
+
+// setTimeout(() => {
+//     console.log('Execute immediately.');
+// }, 0);
+// console.log('Hi!');
+
+
+
+// console.log('Bye!');
+
+
+
+let user = {
+    login: 'webbrain',
+    pasword: 12345,
+    name: 'Abdurazakov xasan',
+    age: 20,
+    location: 'webbrainacademy',
+    bug: 'kiritilgan malumodda xatolik bor !!!'
+}
+console.log('Tekshirilmoqda......');
+
+const getProdact= (login,pasword,callbackto)=>{
+    setTimeout(() => {
+        if (!(login === user.login && pasword === user.pasword)) {
+            callbackto(user.bug);
+        }
+    }, 2000); 
+}
+
+const getName = (login, pasword, callback) => {
+    setTimeout(() => {
+        if (login === user.login && pasword === user.pasword) {
+            callback(user.name);
+        }
+    }, 2000);
+
+};
+getName('webbrain', 12345, (usr)=>{
+    console.log(`${usr} welkome to google company 😎`);
+    getProdact('webbrain', 12345, (usr1) => {
+        console.log(`${usr1} qayta tekshirib ko'ring`);
+
+    })
+})
+
+
+
 
