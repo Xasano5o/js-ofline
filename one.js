@@ -2250,7 +2250,7 @@ const data = [
 
 // function invert(array) {
 //     return -array
-     
+
 // }
 // console.log(invert([1, 2, -1, 3, 4, 5]));
 
@@ -2577,13 +2577,7 @@ const data = [
 // }
 // console.log('Tekshirilmoqda......');
 
-// const getProdact= (login,pasword,callbackto)=>{
-//     setTimeout(() => {
-//         if (!(login === user.login && pasword === user.pasword)) {
-//             callbackto(user.bug);
-//         }
-//     }, 2000); 
-// }
+
 
 // const getName = (login, pasword, callback) => {
 //     setTimeout(() => {
@@ -2591,11 +2585,18 @@ const data = [
 //             callback(user.name);
 //         }
 //     }, 2000);
+//     const getProdact = (login, pasword, callbackto) => {
+//         setTimeout(() => {
+//             if (!(login === user.login && pasword === user.pasword)) {
+//                 callbackto(user.bug);
+//             }
+//         }, 2000);
+//     }
 
 // };
 // getName('webbrain', 12345, (usr)=>{
-//     console.log(`${usr} welkome to google company 😎`);
-//     getProdact('webbrain', 12345, (usr1) => {
+//     console.log(`${usr} welkome to fb`);
+//     getProdact('webbrain', 123465, (usr1) => {
 //         console.log(`${usr1} qayta tekshirib ko'ring`);
 
 //     })
@@ -2622,5 +2623,27 @@ const data = [
 // }  );
 
 
+// function character(one) {
+//     return one.filter((val, ind, arr) => val === arr[ind + 1] )
+// }
+// console.log(character());
+
+let user = {
+    login: 'webbrain',
+    pasword: 123456,
+    name: 'itcenter',
+    bug: '❌'
+}
+// console.log('tekshirilmoqda.....');
+// const getName = (login, pasword, callback) => {
+//     setTimeout(() => login === user.login && pasword === user.pasword ? callback(user.name) : console.log(user.bug), 1000)
+// }
+
+// const usr = getName(`webrbrain`, 123456, (usr) => {
+//     console.log(`${usr} welcome to fb `);
+// });
 
 
+function name(params) {
+    
+}
