@@ -2628,12 +2628,12 @@ const data = [
 // }
 // console.log(character());
 
-let user = {
-    login: 'webbrain',
-    pasword: 123456,
-    name: 'itcenter',
-    bug: '❌'
-}
+// let user = {
+//     login: 'webbrain',
+//     pasword: 123456,
+//     name: 'itcenter',
+//     bug: '❌'
+// }
 // console.log('tekshirilmoqda.....');
 // const getName = (login, pasword, callback) => {
 //     setTimeout(() => login === user.login && pasword === user.pasword ? callback(user.name) : console.log(user.bug), 1000)
@@ -2644,6 +2644,18 @@ let user = {
 // });
 
 
-function name(params) {
-    
-}
+// let user ={
+//     login: 'webbrain',
+//     pasword: 12345,
+//     name: 'Abdurazazkov xasan'
+// }
+// console.log('Started.....');
+// function getName(login,pasword) {
+//     setTimeout(() => {
+//       if(login === user.login && pasword === user.pasword); {
+//             return user.name
+//         }
+//     },1000)
+// }
+// res=getName('webbrain',12345);
+// console.log(res);
