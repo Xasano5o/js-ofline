@@ -2578,29 +2578,70 @@ const data = [
 // console.log('Tekshirilmoqda......');
 
 
-
-// const getName = (login, pasword, callback) => {
-//     setTimeout(() => {
-//         if (login === user.login && pasword === user.pasword) {
-//             callback(user.name);
-//         }
-//     }, 2000);
-//     const getProdact = (login, pasword, callbackto) => {
+//    const getProdact = (login, pasword, callbackto) => {
 //         setTimeout(() => {
 //             if (!(login === user.login && pasword === user.pasword)) {
 //                 callbackto(user.bug);
 //             }
 //         }, 2000);
 //     }
+// const getName = (login, pasword, callback) => {
+//     setTimeout(() => {
+//         if (login === user.login && pasword === user.pasword) {
+//             callback(user.name);
+//         }
+//     }, 2000);
+ 
 
 // };
 // getName('webbrain', 12345, (usr)=>{
 //     console.log(`${usr} welkome to fb`);
-//     getProdact('webbrain', 123465, (usr1) => {
+//     getProdact('webbrain', 123445, (usr1) => {
 //         console.log(`${usr1} qayta tekshirib ko'ring`);
 
 //     })
 // })
+
+
+
+
+
+// function character(one) {
+//     return one.filter((val, ind, arr) => val === arr[ind + 1] )
+// }
+// console.log(character());
+
+// let user = {
+//     login: 'webbrain',
+//     pasword: 123456,
+//     name: 'itcenter',
+//     bug: '❌'
+// }
+// console.log('tekshirilmoqda.....');
+// const getName = (login, pasword, callback) => {
+//     setTimeout(() => login === user.login && pasword === user.pasword ? callback(user.name) : console.log(user.bug), 1000)
+// }
+
+// const usr = getName(`webbrain`, 123456, (usr) => {
+//     console.log(`${usr} welcome to fb `);
+// });
+
+
+// let user ={
+//     login: 'webbrain',
+//     pasword: 12345,
+//     name: 'Abdurazazkov xasan'
+// }
+// console.log('Started.....');
+// function getName(login,pasword) {
+//     setTimeout(() => {
+//       if(login === user.login && pasword === user.pasword); {
+//             return user.name
+//         }
+//     },1000)
+// }
+// res=getName('webbrain',12345);
+// console.log(res);
 
 
 
@@ -2623,39 +2664,23 @@ const data = [
 // }  );
 
 
-// function character(one) {
-//     return one.filter((val, ind, arr) => val === arr[ind + 1] )
-// }
-// console.log(character());
-
 // let user = {
 //     login: 'webbrain',
 //     pasword: 123456,
 //     name: 'itcenter',
-//     bug: '❌'
-// }
-// console.log('tekshirilmoqda.....');
-// const getName = (login, pasword, callback) => {
-//     setTimeout(() => login === user.login && pasword === user.pasword ? callback(user.name) : console.log(user.bug), 1000)
+//     bug: ' Login  || Parol ❌ '
 // }
 
-// const usr = getName(`webrbrain`, 123456, (usr) => {
-//     console.log(`${usr} welcome to fb `);
-// });
+// const getName = (login, parol) => {
+//     return new Promise((resolt, regect) => {
+//         setTimeout(() => {
+//             if (login === user.login && parol === user.pasword) {
+//                 return resolt(user.name)
+//             } else regect(user.bug)
+//         }, 1000);
+
+//     })
+// }
+// getName('webbrain', 123456).then((res) => console.log(`${res} welcome to fb`)).catch((rej) => console.log(rej))
 
 
-// let user ={
-//     login: 'webbrain',
-//     pasword: 12345,
-//     name: 'Abdurazazkov xasan'
-// }
-// console.log('Started.....');
-// function getName(login,pasword) {
-//     setTimeout(() => {
-//       if(login === user.login && pasword === user.pasword); {
-//             return user.name
-//         }
-//     },1000)
-// }
-// res=getName('webbrain',12345);
-// console.log(res);
