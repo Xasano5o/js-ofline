@@ -2591,7 +2591,7 @@ const data = [
 //             callback(user.name);
 //         }
 //     }, 2000);
- 
+
 
 // };
 // getName('webbrain', 12345, (usr)=>{
@@ -2683,4 +2683,97 @@ const data = [
 // }
 // getName('webbrain', 123456).then((res) => console.log(`${res} welcome to fb`)).catch((rej) => console.log(rej))
 
+// console.log('hey1');
 
+// let one ='hey2'
+
+// setTimeout(() => {
+//     console.log(one);
+// },0);
+// console.log('hey3');
+
+
+
+// console.log('boshlandi');
+// function getName(login,pasword,callback) {
+// setTimeout(() => {
+//     if (login===user.login && pasword===user.pasword) {
+//         callback (user.name )
+//     }
+// }, 2000);
+// }
+// getName('xasan100', 12345,(usr)=>{
+//     console.log(`${usr} To'gri  `);
+// });
+
+// const getName=(login,pasword)=>{
+//     return new Promise((resolt,regect)=>{
+//         setTimeout(() => {
+//             if (login===user.login && pasword===user.pasword ) {
+//              return resolt(user.name)   
+//             }
+//             else regect(user.bug)
+//         }, 2000);
+//     })
+// }
+// getName('xasanf100',12345).then((res)=>console.log(`${res} welcome to google 😎`  )).catch((rej)=>console.log(`${rej}`));
+
+// const getName = async (login,pasword)=>{
+// try {
+// let user = await 
+// getInfo ('xasan100',123456) ;
+// console.log(user);  
+// } catch (err) {
+//     console.log(err);
+// }
+// }
+// getName()
+
+
+// console.log('one1');
+// let one ='hey2'
+// setTimeout(() => { console.log(one) },0);
+// console.log('he3');
+
+
+
+// console.log('boshlandi');
+// getNmae= (login,pasword,callback)=>{
+// setTimeout(() => {
+//    if (login===user.login&&pasword===user.pasword) {
+//     callback (user.name)
+//    } 
+// }, 1000);
+// }
+
+// getNmae('xasan100', 12345,(usr)=>{
+//     console.log(`${usr}welcome to fb `);
+// } );
+
+
+// getName=(login,pasword)=>{
+// return new Promise((resaslt,regect)=>{
+//     setTimeout(()=>{
+//         if (login===user.login&& pasword===user.pasword) {
+//             return resaslt(user.name)
+//         }
+//         else{return regect(user.bug)}
+//     },1000)
+// })
+// }
+// getName('xasdfan100',12345).then((res)=>console.log(`${res} ww `)).catch((regec)=>console.log(`${regec} xato `))
+
+
+
+
+
+
+
+
+// let user = {
+//     login: 'xasan100',
+//     pasword: 12345,
+//     name: 'xasan  to`gri malumod',
+//     bug: 'hatolik bor qayta tekshirib k`oring !!!'
+
+// }
