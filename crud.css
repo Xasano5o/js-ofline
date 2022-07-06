@@ -86,3 +86,8 @@ label.validation-error{
 .hide{
     display:none;
 }
+.posts {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

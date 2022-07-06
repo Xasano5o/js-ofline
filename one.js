@@ -2869,3 +2869,23 @@ const data = [
 // getName('webbrain', 123456).then((res) => console.log(`${res} welcome to fb`)).catch((rej) => console.log(rej))
 
 // generator fuction 
+
+// function capitalizeWord(word) {
+//     return word[0].toUpperCase() + word.slice(1);
+// }
+// console.log(capitalizeWord('word'));
+
+// function sumTwoSmallestNumbers(numbers) {
+// return  numbers.sort((a, b) => a - b).slice(0,2).reduce((a,b)=>a+b)
+
+
+// } 
+// console.log(sumTwoSmallestNumbers([52, 76, 14, 12, 4]));
+function varTest() {
+    var x = 1;
+    if (true) {
+        var x = 2;  // та же переменная!
+        console.log(x);  // 2
+    }
+    console.log(x);  // 2
+}
