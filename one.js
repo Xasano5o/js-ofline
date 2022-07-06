@@ -2612,9 +2612,9 @@ const data = [
 // console.log(character());
 
 // let user = {
-//     login: 'webbrain',
+//     login: 'xasan100',
 //     pasword: 123456,
-//     name: 'itcenter',
+//     name: 'xasan',
 //     bug: '❌'
 // }
 // console.log('tekshirilmoqda.....');
@@ -2622,7 +2622,7 @@ const data = [
 //     setTimeout(() => login === user.login && pasword === user.pasword ? callback(user.name) : console.log(user.bug), 1000)
 // }
 
-// const usr = getName(`webbrain`, 123456, (usr) => {
+// const usr = getName(`xasan100`, 123456, (usr) => {
 //     console.log(`${usr} welcome to fb `);
 // });
 
@@ -2764,7 +2764,14 @@ const data = [
 // getName('xasdfan100',12345).then((res)=>console.log(`${res} ww `)).catch((regec)=>console.log(`${regec} xato `))
 
 
+// console.log('hey1');
 
+// let one ='hey2'
+// setTimeout(() => {
+//     console.log(one);
+
+// },0);
+// console.log('hey3');
 
 
 
@@ -2777,3 +2784,87 @@ const data = [
 //     bug: 'hatolik bor qayta tekshirib k`oring !!!'
 
 // }
+// getName=(login,pasword,callback)=>{
+//     setTimeout(() => {
+//         if (login===user.login&&pasword===user.pasword) {
+//             callback (user.name)
+//         }
+//     }, 2000);
+// }
+
+// getName('xasan100', 12345,((usr)=>{
+//     console.log(`${usr} welcome to fb `);
+// }));
+
+// getNmae=(login,pasword)=>{
+//     return new Promise ((resalt,regect)=>{
+//         setTimeout(() => {
+//             if (login===user.login&& pasword===user.pasword) {
+//                 return resalt(user.name)
+//             }
+//             else return regect(user.bug)
+//         },2000);
+//     })
+// }
+// getNmae('xasgcfan100',12345).then((res)=>console.log(`${res} welcome to `)).catch((reg)=>console.log(`${reg}`))
+
+
+
+
+
+
+// let user = {
+//     login: 'webbrain',
+//     pasword: 12345,
+//     name: 'Abdurazakov xasan',
+//     age: 20,
+//     location: 'webbrainacademy',
+//     bug: 'kiritilgan malumodda xatolik bor !!!'
+// }
+// console.log('Tekshirilmoqda......');
+
+
+//    const getProdact = (login, pasword, callbackto) => {
+//         setTimeout(() => {
+//             if (!(login === user.login && pasword === user.pasword)) {
+//                 callbackto(user.bug);
+//             }
+//         }, 2000);
+//     }
+// const getName = (login, pasword, callback) => {
+//     setTimeout(() => {
+//         if (login === user.login && pasword === user.pasword) {
+//             callback(user.name);
+//         }
+//     }, 2000);
+
+
+// };
+// getName('webbrain', 12345, (usr)=>{
+//     console.log(`${usr} welkome to fb`);
+//     getProdact('webbrain', 123445, (usr1) => {
+//         console.log(`${usr1} qayta tekshirib ko'ring`);
+
+//     })
+// })
+
+
+// let user = {
+//     login: 'webbrain',
+//     pasword: 123456,
+//     name: 'itcenter',
+//     bug: ' Login  || Parol ❌ '
+// }
+
+// const getName = (login, parol) => {
+//     return new Promise((resolt, regect) => {
+//         setTimeout(() => {
+//             if (login === user.login && parol === user.pasword) {
+//                 return resolt(user.name)
+//             } else regect(user.bug)
+//         }, 1000);
+
+//     })
+// }
+// getName('webbrain', 123456).then((res) => console.log(`${res} welcome to fb`)).catch((rej) => console.log(rej))
+
