@@ -2868,3 +2868,4 @@ const data = [
 // }
 // getName('webbrain', 123456).then((res) => console.log(`${res} welcome to fb`)).catch((rej) => console.log(rej))
 
+// generator fuction 
