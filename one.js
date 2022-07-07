@@ -1,6 +1,6 @@
 // // Data type
 // // primitiv data type
-// // number, string, boolean, undefined, null
+// // n mber, string, boolean, undefined, null
 
 // // noprimitiv data type
 // // object -> (array, function)
@@ -1943,7 +1943,8 @@
 
 
 // function update(id,key,val) {
-//     return data.map((value)=>value.id===id ?{...value, [key]:val}:value )
+//     return data.map((value)=>value.id===id ? {...value,[key]:val}:value)
+//     // return data.map((value)=>value.id===id ?{...value, [key]:val}:value )
 // }
 // console.log(update(11,'name','xolnmat'));
 
@@ -2123,20 +2124,20 @@
 
 
 
-const data = [
-    { id: 1, status: 're-exam', name: 'Rakhimjonov Davronbek' },
-    { id: 2, status: 'passed', name: 'Komil Muhammadiyev' },
-    { id: 3, status: 'passed', name: 'Mahkamov Tohirbek' },
-    { id: 4, status: 'failed', name: 'Nuraliev Zuhriddin' },
-    { id: 5, status: 're-exam', name: 'Dilshodbek Boymamatov' },
-    { id: 6, status: 'passed', name: 'Muhharam Ozodboyeva' },
-    { id: 7, status: 'failed', name: 'Azimov Umarbek' },
-    { id: 8, status: 'passed', name: 'Abdurazzaqov Xasan' },
-    { id: 9, status: 'passed', name: 'Davlyatov MuhammadAli' },
-    { id: 10, status: 'passed', name: 'Zohidova Ruqiya' },
-    { id: 11, status: 'passed', name: 'Abduhamidov Nurbek' },
-    { id: 12, status: 'passed', name: 'Nizamov Sardorbek' },
-];
+// const data = [
+//     { id: 1, status: 're-exam', name: 'Rakhimjonov Davronbek' },
+//     { id: 2, status: 'passed', name: 'Komil Muhammadiyev' },
+//     { id: 3, status: 'passed', name: 'Mahkamov Tohirbek' },
+//     { id: 4, status: 'failed', name: 'Nuraliev Zuhriddin' },
+//     { id: 5, status: 're-exam', name: 'Dilshodbek Boymamatov' },
+//     { id: 6, status: 'passed', name: 'Muhharam Ozodboyeva' },
+//     { id: 7, status: 'failed', name: 'Azimov Umarbek' },
+//     { id: 8, status: 'passed', name: 'Abdurazzaqov Xasan' },
+//     { id: 9, status: 'passed', name: 'Davlyatov MuhammadAli' },
+//     { id: 10, status: 'passed', name: 'Zohidova Ruqiya' },
+//     { id: 11, status: 'passed', name: 'Abduhamidov Nurbek' },
+//     { id: 12, status: 'passed', name: 'Nizamov Sardorbek' },
+// ];
 
 // 1- sort
 // function getsort(key) {
@@ -2864,7 +2865,7 @@ const data = [
 //             } else regect(user.bug)
 //         }, 1000);
 
-//     })
+//     })up
 // }
 // getName('webbrain', 123456).then((res) => console.log(`${res} welcome to fb`)).catch((rej) => console.log(rej))
 
@@ -2881,11 +2882,30 @@ const data = [
 
 // } 
 // console.log(sumTwoSmallestNumbers([52, 76, 14, 12, 4]));
-function varTest() {
-    var x = 1;
-    if (true) {
-        var x = 2;  // та же переменная!
-        console.log(x);  // 2
-    }
-    console.log(x);  // 2
-}
+// function varTest() {
+//     var x = 1;
+//     if (true) {
+//         var x = 2;  // та же переменная!
+//         console.log(x);  // 2
+//     }
+//     console.log(x);  // 2
+// }
+
+
+// var one ='13'
+// function run() {
+//    let foo = 'Foo'
+//    var bar = 'Bar'
+//    console.log(foo, bar);
+//    {
+//     var moo = 'Moo'
+//     let baz = 'Bazz'
+//     console.log(baz);
+     
+//    }
+//     console.log(moo);
+//    console.log(baz);
+
+// }
+
+// run();
