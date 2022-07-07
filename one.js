@@ -2914,3 +2914,19 @@
 // ]
 // edit crud
 // update
+// console.log(x);
+// function doSomething() {
+//    x = 33;
+//    console.log(x);
+//    var x;
+// } 
+// console.log(x);
+
+
+
+// var x = 1, y = 2,
+//    z =
+     
+//       console.log( x + y);
+
+// console.log(3 + 2*'7');
