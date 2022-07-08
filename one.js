@@ -2930,7 +2930,7 @@
 //       console.log( x + y);
 
 // console.log(3 + 2*'7');
-(function () {
-   var a = b = 3;
-})();
+// (function () {
+//    var a = b = 3;
+// })();
 
