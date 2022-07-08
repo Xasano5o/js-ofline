@@ -27,10 +27,10 @@
 
 // // console.log(one);
 
-// // var one =1.2222
-// // console.log(Number.parseInt("4.666"));
-// // console.log(Number.isInteger(6767));
-// // console.log(one.toFixed(3));
+// var one =1.5999
+// console.log(parseInt(4.666));
+//  console.log(Number.isInteger('6767'));
+// console.log(one.toFixed(3));
 
 // // // 2 yuzasini topish
 // // let s ;
@@ -39,10 +39,10 @@
 // // console.log(s);
 
 // // 3 yuzasi va parametri
-// // var s ;
-// // var a=5, b=10
-// // s=a*b
-// // console.log(s);
+// var s ;
+// var a=5, b=10
+// s=a*b
+// console.log(s);
 // // var p ;
 // // p=2*(a+b)
 // // console.log(p);
@@ -121,54 +121,54 @@
 // // console.log(c);
 // // console.log(p);
 
-// // var start =100
-// // var end =200
+// var start =100
+// var end =200
 
-// // console.log(parseInt( Math.random()*(start-end))+start);
+// console.log(parseInt( Math.random()*(start-end))+start);
 
-// // juft tuq son
-// // var juft = 142;
-// // var toq = 5;
-// // toq % 2 === 1;
-// // juft % 2 === 0 && console.log('juft son');
-// // juft % 2 === 1 && console.log("tuq son");
+// juft tuq son
+// var juft = 145;
+// var toq = 5;
+// toq % 2 === 1;
+// juft % 2 === 0 && console.log('juft son');
+// juft % 2 === 1 && console.log("tuq son");
 
-// // var a=100
-// // var b=83
-// // var c=60
-// // var faild=45
+// var a=100
+// var b=83
+// var c=60
+// var faild=45
 
-// //  b<a&& console.log('A');
-// // c<b&&console.log('B');
-// // faild<c&& console.log('JS imhonidan o`ta olmadingiz');  /
+// console.log('A');
+// console.log('B');
+//  console.log('JS imhonidan o`ta olmadingiz');  
 
-// // function test(num) {
-// // return (
-// // result =100 >= num && num >= 85 ? "A": 85 >= num && num >= 65? "B": 65 >= num && num >= 45? 'C' : 'faild')
-// // }
-// // console.log(test(56));
-
-
+// function test(num) {
+// return (
+// result =100 >= num && num >= 85 ? "A": 85 >= num && num >= 65? "B": 65 >= num && num >= 45? 'C' : 'faild')
+// }
+// console.log(test(77));
 
 
 
 
-// // var arr = [
-// //   {id: 1, name: "umar"},
-// //   {id: 1, name: "nodir"},
-// //   {id: 1, name: "xasan"},
-// //   {id: 1, name: "abdulloh"},
-// //   {id: 1, name: "bobur"},
-// //   {id: 1, name: "sardor"},
 
-// // ];
 
-// // function getsearch(text) {
-// //     a= arr.filter((value)=>value.name.toLowerCase().includes(text.toLowerCase()))
-// //     return a
-// // }
+// var arr = [
+//   {id: 1, name: "umar"},
+//   {id: 1, name: "nodir"},
+//   {id: 1, name: "xasan"},
+//   {id: 1, name: "abdulloh"},
+//   {id: 1, name: "bobur"},
+//   {id: 1, name: "sardor"},
 
-// // console.log(getsearch("o"));
+// ];
+
+// function getsearch(text) {
+//     a= arr.filter((value)=>value.name.toLowerCase().includes(text.toLowerCase()))
+//     return a
+// }
+
+// console.log(getsearch("o"));
 
 
 
