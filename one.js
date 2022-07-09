@@ -175,38 +175,38 @@
 
 
 
-// // class One {
-// //   constructor(prop){
-// //     this.name=prop.name;
-// //     this.surname = prop.surname;
-// //   }
-// //   getFullname(){
-// //     console.log(this.name,'',this.surname)
-// //   }
-// // }
-// // class Department extends One{
-// //   constructor (prop){
-// //     super(prop)
-// //     this.name=prop.name
-// //   }
-// //   getName(){
-// //     console.log(this.name);
-// //   }
-// // }
+// class One {
+//   constructor(prop){
+//     this.name=prop.name;
+//     this.surname = prop.surname;
+//   }
+//   getFullname(){
+//     console.log(this.name,'',this.surname)
+//   }
+// }
+// class Department extends One{
+//   constructor (prop){
+//     super(prop)
+//     this.name=prop.name
+//   }
+//   getName(){
+//     console.log(this.name);
+//   }
+// }
 
-// // const user = new Department({name: 'Xasan',surname:'Abdurazakov' })
+// const user = new Department({name: 'Xasan',surname:'Abdurazakov' })
 
-// // user.getFullname()
+// user.getFullname()
 
-// // function gooseFilter(birds) {
-// //   var geese = ["African", "Roman Tufted", "Toulouse", "Pilgrim", "Steinbacher"];
-// //    res = birds.filter((value) => value !== geese)
-// // return res.sort().flat(Infinity);
-// // }
+// function gooseFilter(birds) {
+//   var geese = ["African", "Roman Tufted", "Toulouse", "Pilgrim", "Steinbacher"];
+//    res = birds.filter((value) => value !== geese)
+// return res.sort().flat(Infinity);
+// }
 
-// // console.log(
-// //   gooseFilter(["Mallard","Hook Bill","African","Crested","Pilgrim","Toulouse","Blue Swedish",])
-// // );
+// console.log(
+//   gooseFilter(["Mallard","Hook Bill","African","Crested","Pilgrim","Toulouse","Blue Swedish",])
+// );
 
 // // function fruit(num) {
 
@@ -233,14 +233,16 @@
 // //  st2=st3
 // // console.log(st1);
 
-// // var a= 'web'
-// // var b='brain'
-// // var c =''
-// // var c=a
-// // var a=b
-// // var b=c
-// // console.log(a);
-// // console.log(b);
+// var a= 'web'
+// var b='brain'
+// var c =a
+// var a=b
+// var b=c
+// console.log(a);
+// console.log(b);
+// console.log(c);
+
+
 
 
 // // function kabis(year) {
@@ -254,10 +256,10 @@
 
 
 
-// // function foiz(num) {
-// // return num %6==0 ?'3 ga bo`linadi':num % 10== 0 ?'5 ga bo`linadi':num % 30==1 ? '10 ga bo`linadi':'faild'
-// // }
-// // console.log(foiz(6));
+// function foiz(num) {
+// return num %6==0 ?'3 ga bo`linadi':num % 10== 0 ?'5 ga bo`linadi':num % 30==1 ? '10 ga bo`linadi':'faild'
+// }
+// console.log(foiz(6));
 
 
 
@@ -273,10 +275,14 @@
 // //      return 'hello world'
 // //     }
 // //     console.log(hello());
+ 
+// guys =(one)=>{
 
-// //     hello =(one)=> 'hello world'
-// // console.log(hello());
-// // arrow fuction retun uzi qaytaradi scobka qo`yilmasa va xoisted bo`lmaydi `ES6  kirib kelgan 
+// }
+
+//     hello =(one)=> 'hello world'
+// console.log(hello());
+// arrow fuction retun uzi qaytaradi scobka qo`yilmasa =>  va xoisted bo`lmaydi `ES6  kirib kelgan 
 
 
 // // -------------------------------------------
@@ -295,33 +301,30 @@
 
 
 
-// // function day(soat) {
-// // if (soat=='10:15PM') {
-// //     console.log('22:15');
-// // }    
-// // else if( soat=='08:30AM') {
-// //     console.log('08:30');
-// // }
-// // else if(soat=='12:00PM'){
-// //     console.log('00:00');
-// // }
-// // else{'HECH BIR SOATGA TUGRI KELMADI '}
-// // }
-// // day('12:00PM');
+// function day(soat) {
+// if (soat=='10:15PM') {
+//     console.log('22:15');
+// }    
+// else if( soat=='08:30AM') {
+//     console.log('08:30');
+// }
+// else if(soat=='12:00PM'){
+//     console.log('00:00');
+// }
+// else{'HECH BIR SOATGA TUGRI KELMADI '}
+// }
+// day('12:00PM');
 
 
-// // function number(one,too='guys') {
-// // console.log(    `hello,${one}`);
-// // console.log(    `hello,${too}`);
+// bu fuctsiyaga defalt parametr berib  qo`yish shunda fucsiyadan malumot kelmaganda deafltga tenglangan qaytadi
+// function number(one,too='guys') {
+// console.log(    `hello,${one} `);
+// console.log(`hello,${too}`);
 
-// // }console.log(number());
+// }
+// number();
 
 
-
-// // function cat(name) {
-// // return name
-// // }
-// // console.log(cat('hey'));
 
 // // exparation fuction
 // // let one  = function (one){
