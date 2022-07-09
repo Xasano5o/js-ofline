@@ -3,12 +3,12 @@
 // // n mber, string, boolean, undefined, null
 
 // // noprimitiv data type
-// // object -> (array, function)
+//  object -> (array, function)
 
-// /////// callstack //////// heap
+//  callstack //////// heap
 
-// // number -> son 2
-// // string -> text '' "" ``
+//number -> son 2
+// string -> text '' "" ``
 // // boolean -> true false
 // // undefined -> hech narsa yoq bolsa
 // // null -> hech qaysi data typega otmagan bolsa
