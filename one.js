@@ -11,8 +11,8 @@
 // string -> text '' "" ``
 // // boolean -> true false
 // // undefined -> hech narsa yoq bolsa
-// // null -> hech qaysi data typega otmagan bolsa
-// // object -> {name:'', surname:''}
+ // null -> hech qaysi data typega otmagan bolsa
+// object -> {name:'', surname:''}
 
 // // console.log() -> terminalga malumot chiqarish uchun
 
