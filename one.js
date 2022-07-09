@@ -14,7 +14,7 @@
  // null -> hech qaysi data typega otmagan bolsa
 // object -> {name:'', surname:''}
 
-// // console.log() -> terminalga malumot chiqarish uchun
+ // console.log() -> terminalga malumot chiqarish uchun
 
 // // primativ   1 string 2 number 3 boolean 4 undifaind 5 null
 // //non prmativ   objeckt arrey reg-ex
