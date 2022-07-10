@@ -275,7 +275,7 @@
 // //      return 'hello world'
 // //     }
 // //     console.log(hello());
- 
+
 // guys =(one)=>{
 
 // }
@@ -404,45 +404,45 @@
 // // let arr=[1,2,3,4,5]
 // // let one=0
 // // a=arr.map((v,)=>one+=v)
-// // console.log(one);
+// console.log(one);
 
-// // let str ='Assallomu allekum jumma muborak'.split(' ').map((value) => {
-// //     return value[0].toUpperCase() + value.slice(1)
-// // })
-// // console.log(str.join(' '));
-
-
-// // let str= '12345'
-// // a= str.split('')
-// // console.log(a);
+// let str ='Assallomu allekum jumma muborak'.split(' ').map((value) => {
+//     return value[0].toUpperCase() + value.slice(1)
+// })
+// console.log(str.join(' '));
 
 
-// // function getPow (numbers){
-// //     const result =`${numbers}`.split("").map((value)=>{
-// //         return Math.pow(+value, 2)
-// //     })
-// //     return +result.join("")
-// // }
-
-// // console.log(getPow(9119))
+// let str= '1234435'
+// a= str.split('')
+// console.log(a);
 
 
+// function getPow (numbers){
+//     const result =`${numbers}`.split("").map((value)=>{
+//         return Math.pow(+value, 2)
+//     })
+//     return +result.join("")
+// }
+
+// console.log(getPow(9119))
 
 
 
 
 
 
-// // let one =['hello','guys',13345]
-// // let on2 =['world','hey',45]
-// // result=one.forEach((i,v,a)=>{
-// //     return i 
-// // } 
-// // )
 
-// // console.log(result);
 
-// // console.log( one.concat(on2));
+// let one =['hello','guys',13345]
+// let on2 =['world','hey',45]
+// result=one.forEach((i,v,a)=>{
+//     return i 
+// } 
+// )
+
+// console.log(result);
+
+// console.log( one.concat(on2));
 
 
 
@@ -1009,14 +1009,14 @@
 
 // // console.log(res.push('1'));
 
-// //  let one =['sekond' , 'minut','soat', 'kun','yil']
-// // res=one.push('oy')
-// // one.push('oy1' ,'hell')
-// // one.pop()
-// // one.unshift('oy1','guys')
-// // one.shift()
+//  let one =['sekond' , 'minut','soat', 'kun','yil']
+// res=one.push('oy')
+// one.push('oy1' ,'hell')
+// one.pop()
+// one.unshift('oy1','guys')
+// one.shift()
 
-// //  console.log(one);
+//  console.log(one);
 
 // //  res= one.splice(2,4 ,'okey')
 // // console.log(res);
@@ -1031,9 +1031,9 @@
 // // res=one.match(/[0-9]/g).join('')
 // // console.log(+res);
 
-// // var a =['webbrain','academy','IT','Center'].join('').split('').map((v)=> v === 'e' ? '1' : false).filter(Boolean).length
+// var a =['webbrain','academy','IT','Center'].join('').split('').map((v)=> v === 'e' ? '1' : false).filter(Boolean).length
 
-// // console.log(a);
+// console.log(a);
 
 
 // // var one =[12]
@@ -1065,9 +1065,9 @@
 
 
 
-// // var one ='12.00'
-// // res=one.split('').map((v)=>v=='.' ? v : false)
-// // console.log(res);
+// var one ='12.00'
+// res=one.split('').map((v)=>v=='.' ? v : false)
+// console.log(res);
 
 
 // // 1-masala
@@ -1288,7 +1288,7 @@
 
 // }
 
-// console.log(getMiddle("middle"));
+// console.log(getMiddle("middleu"));
 // console.log(getMiddle("hello"));
 
 // const rps = (p1, p2) => {
@@ -1530,8 +1530,8 @@
 
 // console.log(keys(one));
 
-// let str1='aabss'
-// let str2 ='abass'
+// let str1='afabss'
+// let str2 ='abafss'
 // console.log(str1.split('').sort((a, b) => a.localeCompare(b)).join() == str2.split('').sort((a, b) => a.localeCompare(b)).join());
 
 
@@ -2904,7 +2904,7 @@
 //     var moo = 'Moo'
 //     let baz = 'Bazz'
 //     console.log(baz);
-     
+
 //    }
 //     console.log(moo);
 //    console.log(baz);
@@ -2929,7 +2929,7 @@
 
 // var x = 1, y = 2,
 //    z =
-     
+
 //       console.log( x + y);
 
 // console.log(3 + 2*'7');
@@ -2939,3 +2939,11 @@
 
 // console.log("a defined? " + (typeof a !== 'undefined'));
 // console.log("b defined? " + (typeof b !== 'undefined'));
+
+
+// var x=0;
+// x++;
+// x='Text1';
+// x=true
+// console.log(typeof x);
+
