@@ -2947,3 +2947,12 @@
 // x=true
 // console.log(typeof x);
 
+// console.log(false==[]);
+// console.log(false == {});
+// let a =[1,2,3]
+// b=a
+// b.push(4)
+// let c=[1,2,3,4]
+// console.log( a=== b);
+// console.log(a === c);
+
