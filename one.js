@@ -2957,16 +2957,7 @@
 // console.log(a === c);
 
 
+// const code ='let a = 2, b = 3; console.log(a + b )';
 
-
-
-
-
-
-
-
-
-const code ='let a = 2, b = 3; console.log(a + b )';
-
-const resalt =eval(code )
-console.log(resalt);x
+// const resalt =eval(code )
+// console.log(resalt);x
