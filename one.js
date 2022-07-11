@@ -2967,8 +2967,8 @@
 // }
 // console.log([1,2,3,4,5],'webbraibn');
 
-var employeeId='1234abe'
-(function (){
-   console.log(employeeId);
-   // var employeeId = '12345';
-})()
+// var employeeId='1234abe'
+// (function (){
+//    console.log(employeeId);
+//    // var employeeId = '12345';
+// })()
