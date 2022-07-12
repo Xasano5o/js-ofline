@@ -1945,10 +1945,9 @@ const data = [
 ]; 
 
 
-function update(id,key,val) {
-    return data.map((value)=>value.id===id ? {...value,[key]:val}:value)
-    // return data.map((value)=>value.id===id ?{...value, [key]:val}:value )
-}
+// function update(id,key,val) {
+// return data.map((value)=>value.id===id ? {...value,[key]:val}:value)
+// }
 // console.log(update(11,'name','xolnmat'));
 
 // function get(text) {
@@ -2151,7 +2150,7 @@ function update(id,key,val) {
 
 // 2-search
 // function getserch(text) {
-//     return res=data.filter((val)=>val.name.toLocaleLowerCase().includes(text.toLocaleLowerCase()))
+// return res=data.filter((valu)=>valu.name.toLocaleLowerCase().includes(text.toLocaleLowerCase()))
 // }
 // console.log(getserch('n'));
 
@@ -2162,12 +2161,11 @@ function update(id,key,val) {
 // console.log(getdelete(1));
 
 // 4-update
-// function getupdate(val,key,text) {
-//     return data.map((value)=>value.id==val ? {...value,[key]:text}:value)
+// function getsearch(id,key,val) {
+//    return data.map((value)=>value.id===id? {...value,[key]:val}:value)
 // }
-// console.log(getupdate(11,'name','eshmat'));
 
-
+// console.log(getsearch(11,'name','xolmat'));
 // function getdeletee(val, key, text) {
 //     return data.map((value) => value.id == val ? { ...value, [key]: text } : value)
 // }
@@ -2637,15 +2635,17 @@ function update(id,key,val) {
 //     name: 'Abdurazazkov xasan'
 // }
 // console.log('Started.....');
-// function getName(login,pasword) {
+// function getName(login,pasword,callback) {
 //     setTimeout(() => {
 //       if(login === user.login && pasword === user.pasword); {
-//             return user.name
-//         }
+//             callback(user.name)
+//         }  
 //     },1000)
 // }
-// res=getName('webbrain',12345);
-// console.log(res);
+// res=getName('webbrain',12345,(one)=>{
+//    console.log(`${one} welcome`);
+// });
+
 
 
 
@@ -2663,19 +2663,9 @@ function update(id,key,val) {
 // },1000)
 
 // }
-// const usr =getname('webbrain',12345, (usr)=> {
+// const usr=getname('webbrain',12345, (usr)=> {
 //     console.log(`${usr} welcome  `)
-// }  );
-
-
-// let user = {
-//     login: 'webbrain',
-//     pasword: 123456,
-//     name: 'itcenter',
-//     bug: ' Login  || Parol ❌ '
-// }
-
-// const getName = (login, parol) => {
+// }  );  getName = (login, parol) => {
 //     return new Promise((resolt, regect) => {
 //         setTimeout(() => {
 //             if (login === user.login && parol === user.pasword) {
@@ -2765,7 +2755,7 @@ function update(id,key,val) {
 //     },1000)
 // })
 // }
-// getName('xasdfan100',12345).then((res)=>console.log(`${res} ww `)).catch((regec)=>console.log(`${regec} xato `))
+// getName('xasan100',12345).then((res)=>console.log(`${res} ww `)).catch((regec)=>console.log(`${regec} xato `))
 
 
 // console.log('hey1');
@@ -2973,3 +2963,19 @@ function update(id,key,val) {
 //    // var employeeId = '12345';
 // })()
 // add
+
+
+// let ar=[2,3,4,5]
+// const inestremItem =(index,value)=>{
+// return [...ar,value]
+// }
+// console.log(inestremItem(2,'ok'));
+
+
+
+
+
+
+
+
+
