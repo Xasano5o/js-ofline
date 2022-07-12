@@ -2979,3 +2979,30 @@ const data = [
 
 
 
+
+
+
+
+// Math
+// Math.pow() -> 
+// Math.sqrt() -> 
+// Math.cbrt(64) -> 
+// Math.max() -> 
+// Math.min() -> 
+// Math.abs() -> 
+// Math.random() -> 
+// Math.round() -> 
+// Math.floor() -> faqat butun songa yaxlitlaydi
+// Math.ceil() -> butun songa 1 ni qoshib beradi, agar qoldigi bolsa
+
+
+// console.log(Math.floor(Math.random() * 100));
+
+// console.log(Math.abs('99'));
+
+// function number(num) {
+// return -num    
+// }
+// console.log(number('99'));
+
+// console.log(Math.floor(-5.05));
