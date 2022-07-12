@@ -2974,6 +2974,20 @@ const data = [
 
 
 
+// console.log(Math.floor(Math.random() * 100));
+
+// console.log(Math.abs('99'));
+
+// function number(num) {
+// return -num    
+// }
+// console.log(number('99'));
+
+// console.log(Math.floor(-5.05));
+// console.log(Math.max(10,100,999))
+// console.log(Math.min(10, 100, 999))
+// array1=[100,99,10,5]
+// console.log(Math.max(...array1));
 
 
 
@@ -2983,26 +2997,31 @@ const data = [
 
 
 
-Math
-Math.pow() -> 
-Math.sqrt() -> 
-Math.cbrt(64) -> 
-Math.max() -> 
-Math.min() -> 
-Math.abs() -> 
-Math.random() -> 
-Math.round() -> 
-Math.floor() -> faqat butun songa yaxlitlaydi
-Math.ceil() -> butun songa 1 ni qoshib beradi, agar qoldigi bolsa
+// Math
+// Math.pow() -> 2 parametr oladi 1-chisi nechini 2 nechinchi darajaga oshirish 
+// Math.sqrt() -> 2 ildiz olish uchun
+// Math.cbrt(64) -> 3 ildiz ostidan chiqarish 
+// Math.max() -> eng katta bo`lgan sonni chiqarib beradi 
+// Math.min() -> eng kichik bo`lgan sonni chiqarib beradi 
+// Math.abs() -> manfiy sonni musbat songa olib beradi 
+// Math.random() -> random qilib beradi 
+// Math.round() -> qoldigi 5 teng yoki 5dan katta bulsa 1 qo`shib beradi kichik bulsa uzini chiqarib beradi
+// Math.floor() -> faqat butun songa yaxlitlaydi
+// Math.ceil() -> butun songa 1 ni qoshib beradi, agar qoldigi bolsa
 
-
-console.log(Math.floor(Math.random() * 100));
-
-console.log(Math.abs('99'));
-
-function number(num) {
-return -num    
-}
-console.log(number('99'));
-
-console.log(Math.floor(-5.05));
+// function number(num) {
+// return -num     
+// }
+// console.log(number(-10));
+// console.log(Math.round(3.56));
+// console.log(Math.pow(4,3));
+// console.log(Math.sqrt(24));
+// console.log(Math.cbrt('64'));
+// console.log(Math.max(10,100,99,10));
+// array = [100,99,1001,10]
+// console.log(Math.max(...array));
+// console.log(Math.min(10,20,30,50));
+// console.log(Math.abs('10'));
+// console.log(Math.floor(3.9999));
+// console.log(Math.ceil(3.0111));
+// console.log(Math.floor(Math.random() * 100));
