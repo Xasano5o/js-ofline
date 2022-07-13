@@ -2854,9 +2854,8 @@ const data = [
 //     return new Promise((resolt, regect) => {
 //         setTimeout(() => {
 //             if (login === user.login && parol === user.pasword) {
-//                 return resolt(user.name)
-//             } else regect(user.bug)
-//         }, 1000);
+//                 return ressort
+
 
 //     })up
 // }
@@ -3022,6 +3021,6 @@ const data = [
 // console.log(Math.max(...array));
 // console.log(Math.min(10,20,30,50));
 // console.log(Math.abs('10'));
-// console.log(Math.floor(3.9999));
-// console.log(Math.ceil(3.0111));
-// console.log(Math.floor(Math.random() * 100));
+console.log(Math.floor(3.9999));
+console.log(Math.ceil(3.0111));
+console.log(Math.floor(Math.random() * 100));
