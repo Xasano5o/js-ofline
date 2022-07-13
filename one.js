@@ -3013,9 +3013,9 @@ const data = [
 // }
 // console.log(number(-10));
 // console.log(Math.round(3.56));
-// console.log(Math.pow(4,3));
-// console.log(Math.sqrt(24));
-// console.log(Math.cbrt('64'));
+console.log(Math.pow(4,3));
+console.log(Math.sqrt(24));
+console.log(Math.cbrt('64'));
 console.log(Math.max(10,100,99,10));
 array = [100,99,1001,10]
 console.log(Math.max(...array));
