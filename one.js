@@ -3016,11 +3016,11 @@ const data = [
 // console.log(Math.pow(4,3));
 // console.log(Math.sqrt(24));
 // console.log(Math.cbrt('64'));
-// console.log(Math.max(10,100,99,10));
-// array = [100,99,1001,10]
-// console.log(Math.max(...array));
-// console.log(Math.min(10,20,30,50));
-// console.log(Math.abs('10'));
+console.log(Math.max(10,100,99,10));
+array = [100,99,1001,10]
+console.log(Math.max(...array));
+console.log(Math.min(10,20,30,50));
+console.log(Math.abs('10'));
 console.log(Math.floor(3.9999));
 console.log(Math.ceil(3.0111));
 console.log(Math.floor(Math.random() * 100));
