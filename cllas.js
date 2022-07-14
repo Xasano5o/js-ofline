@@ -3013,14 +3013,47 @@ const data = [
 // }
 // console.log(number(-10));
 // console.log(Math.round(3.56));
-console.log(Math.pow(4,3));
-console.log(Math.sqrt(24));
-console.log(Math.cbrt('64'));
-console.log(Math.max(10,100,99,10));
-array = [100,99,1001,10]
-console.log(Math.max(...array));
-console.log(Math.min(10,20,30,50));
-console.log(Math.abs('10'));
-console.log(Math.floor(3.9999));
-console.log(Math.ceil(3.0111));
-console.log(Math.floor(Math.random() * 100));
+// console.log(Math.pow(4,3));
+// console.log(Math.sqrt(24));
+// console.log(Math.cbrt('64'));
+// console.log(Math.max(10,100,99,10));
+// array = [100,99,1001,10]
+// console.log(Math.max(...array));
+// console.log(Math.min(10,20,30,50));
+// console.log(Math.abs('10'));
+// console.log(Math.floor(3.9999));
+// console.log(Math.ceil(3.0111));
+// console.log(Math.floor(Math.random() * 100));
+
+// let employeeId='1234abe'
+// (function () {
+//     console.log(employeeId);
+//     let employeeId='12345'
+// })()
+
+
+// var countArray={
+//     A: 3,
+//     B:4
+// }
+// countArray ['C']=1
+// console.log(Object.entries(countArray));
+
+// let arr =[
+//     ['uzb',5],['ru',1],
+//     ['uz', 4], ['kz', 1],
+//     ['uk', 1], ['Tgz', 1]
+// ]
+
+// b=[...arr].sort((a,b) => a.localeCompare(b))
+// console.log(b);
+
+// function name() {
+//     {
+//     var one='12345'
+//     let too='7654321'    
+//     }
+//     // console.log(one);
+//     // console.log(too);
+// }
+// name()
