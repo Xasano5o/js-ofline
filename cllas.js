@@ -3064,7 +3064,16 @@ const data = [
 // console.log(getupdate(11,'name','zubayr'));
 // console.log(typeof (typeof 4 * 5));
 
-function name(a,b) {
-return   !name   % 2 === 0 ? 'juft' : 'tuq'
-}
-console.log(name(66,));
+// function name(a,b) {
+// return   !name   % 2 === 0 ? 'juft' : 'tuq'
+// }
+// console.log(name(66,));
+// function one(test) {
+//   if ((test) => 100 <= 85) {
+//     ("siz o`tiz");
+//   } else if ((test) => 85 <= 50) {
+//     ("yaxshi");
+//   } else (test) => 50 <= 0;
+//   return one;
+// }
+// console.log(one(100));
