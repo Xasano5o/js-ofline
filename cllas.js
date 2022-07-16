@@ -3062,4 +3062,9 @@ const data = [
 //     return data.map((value)=>value.id===id ?{...value,[key]:val}:value)
 // }
 // console.log(getupdate(11,'name','zubayr'));
-console.log(typeof (typeof 4 * 5));
+// console.log(typeof (typeof 4 * 5));
+
+// function name(a,b) {
+// return   !name   % 2 === 0 ? 'juft' : 'tuq'
+// }
+// console.log(name(66,));
