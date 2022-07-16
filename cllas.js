@@ -3058,7 +3058,7 @@ const data = [
 // }
 // name()
 
-getupdate=(id,key,val)=>{
-    return data.map((value)=>value.id===id ?{...value,[key]:val}:value)
-}
-console.log(getupdate(11,'name','zubayr'));
+// getupdate=(id,key,val)=>{
+//     return data.map((value)=>value.id===id ?{...value,[key]:val}:value)
+// }
+// console.log(getupdate(11,'name','zubayr'));
